@@ -497,11 +497,21 @@ http://akizukidenshi.com/catalog/g/gC-01604/&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="CONN_2PIN" prefix="CN">
+<description>&lt;b&gt;２ピンコネクター&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="CN_CONNECTION" x="2.54" y="-2.54"/>
 </gates>
 <devices>
 <device name="-L" package="HEADER_L_2PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="HEADER_2PIN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
