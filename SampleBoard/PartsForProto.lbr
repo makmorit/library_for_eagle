@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -312,11 +312,11 @@ package type P</description>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-50.8" width="0.254" layer="94"/>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-53.34" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SI/WPUB" x="0" y="0" length="short"/>
+<pin name="SI/WUB" x="0" y="0" length="short"/>
 <pin name="AD0/TXD-A" x="43.18" y="0" length="short" rot="R180"/>
-<pin name="BC3" x="0" y="-2.54" length="short"/>
+<pin name="BC3/TXLED-B" x="0" y="-2.54" length="short"/>
 <pin name="AD1/RXD-A" x="43.18" y="-2.54" length="short" rot="R180"/>
-<pin name="BC2" x="0" y="-5.08" length="short"/>
+<pin name="BC2/RXLED-B" x="0" y="-5.08" length="short"/>
 <pin name="BC1" x="0" y="-7.62" length="short"/>
 <pin name="BC0" x="0" y="-10.16" length="short"/>
 <pin name="BD7" x="0" y="-12.7" length="short"/>
@@ -340,8 +340,8 @@ package type P</description>
 <pin name="GND2" x="43.18" y="-45.72" length="short" direction="pas" rot="R180"/>
 <pin name="RSTIN#" x="43.18" y="-33.02" length="short" rot="R180"/>
 <pin name="SI/WUA" x="43.18" y="-30.48" length="short" rot="R180"/>
-<pin name="AC3" x="43.18" y="-27.94" length="short" rot="R180"/>
-<pin name="AC2" x="43.18" y="-25.4" length="short" rot="R180"/>
+<pin name="AC3/TXLED-A" x="43.18" y="-27.94" length="short" rot="R180"/>
+<pin name="AC2/RXLED-A" x="43.18" y="-25.4" length="short" rot="R180"/>
 <pin name="GND" x="0" y="-33.02" length="short" direction="pas"/>
 <pin name="BD0/TXD-B" x="0" y="-30.48" length="short"/>
 <pin name="GND1" x="0" y="-35.56" length="short" direction="pas"/>
@@ -425,8 +425,8 @@ package type P</description>
 <connects>
 <connect gate="G$1" pin="AC0" pad="32"/>
 <connect gate="G$1" pin="AC1" pad="31"/>
-<connect gate="G$1" pin="AC2" pad="30"/>
-<connect gate="G$1" pin="AC3" pad="29"/>
+<connect gate="G$1" pin="AC2/RXLED-A" pad="30"/>
+<connect gate="G$1" pin="AC3/TXLED-A" pad="29"/>
 <connect gate="G$1" pin="AD0/TXD-A" pad="40"/>
 <connect gate="G$1" pin="AD1/RXD-A" pad="39"/>
 <connect gate="G$1" pin="AD2" pad="38"/>
@@ -437,8 +437,8 @@ package type P</description>
 <connect gate="G$1" pin="AD7" pad="33"/>
 <connect gate="G$1" pin="BC0" pad="5"/>
 <connect gate="G$1" pin="BC1" pad="4"/>
-<connect gate="G$1" pin="BC2" pad="3"/>
-<connect gate="G$1" pin="BC3" pad="2"/>
+<connect gate="G$1" pin="BC2/RXLED-B" pad="3"/>
+<connect gate="G$1" pin="BC3/TXLED-B" pad="2"/>
 <connect gate="G$1" pin="BD0/TXD-B" pad="13"/>
 <connect gate="G$1" pin="BD1/RXD-B" pad="12"/>
 <connect gate="G$1" pin="BD2" pad="11"/>
@@ -456,8 +456,8 @@ package type P</description>
 <connect gate="G$1" pin="GND5" pad="25"/>
 <connect gate="G$1" pin="RSTIN#" pad="27"/>
 <connect gate="G$1" pin="RSTOUT#" pad="26"/>
-<connect gate="G$1" pin="SI/WPUB" pad="1"/>
 <connect gate="G$1" pin="SI/WUA" pad="28"/>
+<connect gate="G$1" pin="SI/WUB" pad="1"/>
 <connect gate="G$1" pin="USBCN5V" pad="20"/>
 <connect gate="G$1" pin="VCCIOA" pad="18"/>
 <connect gate="G$1" pin="VCCIOB" pad="17"/>
