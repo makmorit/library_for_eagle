@@ -867,12 +867,12 @@ package type P</description>
 <package name="DIL40">
 <description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;
 package type P</description>
-<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="-5.588" width="0.1524" layer="21"/>
 <wire x1="-25.4" y1="1.27" x2="-25.4" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="25.4" y1="-6.223" x2="25.4" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="6.223" x2="-25.4" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="6.223" x2="25.4" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="-6.223" x2="25.4" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-5.588" x2="25.4" y2="5.588" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="5.588" x2="-25.4" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="5.588" x2="25.4" y2="5.588" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-5.588" x2="25.4" y2="-5.588" width="0.1524" layer="21"/>
 <pad name="1" x="-24.13" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="-21.59" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="-19.05" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
@@ -913,7 +913,7 @@ package type P</description>
 <pad name="38" x="-19.05" y="7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="39" x="-21.59" y="7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="40" x="-24.13" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<text x="-25.781" y="-6.096" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-25.781" y="-5.461" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-21.59" y="-2.2352" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
