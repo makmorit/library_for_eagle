@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -962,7 +962,7 @@ package type P</description>
 <pad name="3" x="7.62" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="4" x="10.16" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <text x="-1.27" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="14.2875" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -977,6 +977,15 @@ package type P</description>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <pad name="9" x="0" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="2.3495" y="-2.8575" size="0.8128" layer="21">1</text>
+<text x="17.653" y="-2.8575" size="0.8128" layer="21">7</text>
+<text x="20.193" y="-2.8575" size="0.8128" layer="21">8</text>
+<text x="4.8895" y="-2.8575" size="0.8128" layer="21">2</text>
+<text x="7.4295" y="-2.8575" size="0.8128" layer="21">3</text>
+<text x="9.9695" y="-2.8575" size="0.8128" layer="21">4</text>
+<text x="12.5095" y="-2.8575" size="0.8128" layer="21">5</text>
+<text x="15.0495" y="-2.8575" size="0.8128" layer="21">6</text>
+<text x="-0.508" y="-2.8575" size="0.8128" layer="21">9</text>
 </package>
 <package name="UART_IF_3PIN">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1021,7 +1030,7 @@ package type P</description>
 <pad name="3" x="5.08" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="4" x="7.62" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <text x="-1.27" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="16.51" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
@@ -1038,6 +1047,16 @@ package type P</description>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <pad name="10" x="22.86" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
+<text x="-0.1905" y="-2.8575" size="0.8128" layer="21">1</text>
+<text x="15.113" y="-2.8575" size="0.8128" layer="21">7</text>
+<text x="17.653" y="-2.8575" size="0.8128" layer="21">8</text>
+<text x="2.3495" y="-2.8575" size="0.8128" layer="21">2</text>
+<text x="4.8895" y="-2.8575" size="0.8128" layer="21">3</text>
+<text x="7.4295" y="-2.8575" size="0.8128" layer="21">4</text>
+<text x="9.9695" y="-2.8575" size="0.8128" layer="21">5</text>
+<text x="12.5095" y="-2.8575" size="0.8128" layer="21">6</text>
+<text x="20.1295" y="-2.8575" size="0.8128" layer="21">9</text>
+<text x="22.352" y="-2.8575" size="0.8128" layer="21">10</text>
 </package>
 <package name="HEADER_16PIN_SD1602">
 <pad name="14" x="0" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
