@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -444,16 +444,16 @@ type 0411, grid 15.24 mm(600MIL)</description>
 <package name="CAP_100MIL">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm(100MIL)</description>
-<wire x1="-0.3048" y1="3.302" x2="-0.3048" y2="2.54" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="2.54" x2="-0.3048" y2="1.778" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="3.302" x2="0.3302" y2="2.54" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="2.54" x2="0.3302" y2="1.778" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="0.3302" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-0.3048" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="2.3495" x2="-0.3048" y2="1.5875" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="1.5875" x2="-0.3048" y2="0.8255" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="2.3495" x2="0.3302" y2="1.5875" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="1.5875" x2="0.3302" y2="0.8255" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="1.5875" x2="0.3302" y2="1.5875" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.5875" x2="-0.3048" y2="1.5875" width="0.1524" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="0.8" rot="R90"/>
 <pad name="2" x="1.27" y="0" drill="0.8" rot="R90"/>
-<text x="2.6035" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.6035" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.159" y="-2.286" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.6035" y="0.8255" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="DIODE-200MIL">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
@@ -718,12 +718,12 @@ package type SS</description>
 <package name="DIL40">
 <description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;
 package type P</description>
-<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-1.27" x2="-25.4" y2="-5.588" width="0.1524" layer="21"/>
 <wire x1="-25.4" y1="1.27" x2="-25.4" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="25.4" y1="-6.223" x2="25.4" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="6.223" x2="-25.4" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="6.223" x2="25.4" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-25.4" y1="-6.223" x2="25.4" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-5.588" x2="25.4" y2="5.588" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="5.588" x2="-25.4" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="5.588" x2="25.4" y2="5.588" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-5.588" x2="25.4" y2="-5.588" width="0.1524" layer="21"/>
 <pad name="1" x="-24.13" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="-21.59" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="-19.05" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
