@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2892,6 +2892,33 @@ package type P</description>
 <connect gate="G$1" pin="RD5" pad="7"/>
 <connect gate="G$1" pin="RD6" pad="8"/>
 <connect gate="G$1" pin="RD7" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RM_SW_LED_IF" prefix="CN">
+<description>&lt;b&gt;10Pin インターフェースピン&lt;/b&gt;&lt;p&gt;
+鉄道模型パワーコントローラー基板用&lt;br&gt;
+タクトスイッチ、LEDを外出しにするためのインタフェース</description>
+<gates>
+<gate name="G$1" symbol="10PIN_IF_FOR_SW_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL10_RIBBON_CABLE_IF">
+<connects>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="LED1" pad="8"/>
+<connect gate="G$1" pin="LED2" pad="9"/>
+<connect gate="G$1" pin="SW1" pad="2"/>
+<connect gate="G$1" pin="SW2" pad="3"/>
+<connect gate="G$1" pin="SW3" pad="4"/>
+<connect gate="G$1" pin="SW4" pad="5"/>
+<connect gate="G$1" pin="SW5" pad="6"/>
+<connect gate="G$1" pin="SW6" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
