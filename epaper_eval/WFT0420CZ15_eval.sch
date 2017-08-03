@@ -678,6 +678,23 @@ DGK  (S-PDSO-G8)</description>
 <rectangle x1="-1.165" y1="1.66" x2="-0.785" y2="2.64" layer="31" rot="R180"/>
 <circle x="-0.9798" y="-0.9017" radius="0.4064" width="0" layer="21"/>
 </package>
+<package name="C1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.7" y="0" dx="2.2" dy="2.7" layer="1"/>
+<smd name="2" x="1.7" y="0" dx="2.2" dy="2.7" layer="1"/>
+<text x="-3.175" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.254" y1="1.0668" x2="-0.254" y2="-1.0668" width="0.4064" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -786,6 +803,18 @@ TOROID, INDUCTOR, etc...</description>
 <pin name="A0" x="22.86" y="-2.54" length="short" rot="R180"/>
 <pin name="A1" x="22.86" y="-5.08" length="short" rot="R180"/>
 <pin name="A2" x="22.86" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="CPOL">
+<wire x1="-1.524" y1="-3.429" x2="1.524" y2="-3.429" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-3.429" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="-1.524" y2="-3.429" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
+<text x="1.143" y="-2.0574" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="-2.1336" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-7.1374" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-5.08" x2="1.651" y2="-4.191" layer="94"/>
+<pin name="-" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -961,6 +990,28 @@ TOROID, INDUCTOR, etc...</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TPST*" prefix="C" uservalue="yes">
+<description>&lt;b&gt;タンタルコンデンサ&lt;/b&gt;&lt;p&gt;
+TPST106K016R0800&lt;br&gt;
+10µF ±10% 16V&lt;br&gt;
+ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
+動作温度 : -55°C～125°C&lt;br&gt;
+サイズ : 3.50mm x 2.80mm</description>
+<gates>
+<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="106K016R0800" package="C1210">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Supply">
@@ -1053,6 +1104,8 @@ TOROID, INDUCTOR, etc...</description>
 <part name="U1" library="Parts" deviceset="LM75B*" device="IMM-3"/>
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
 <part name="C13" library="Parts" deviceset="CAP" device="_0805" value="0.1uF"/>
+<part name="R4" library="Parts" deviceset="RESISTOR" device="_0805" value="100k"/>
+<part name="C14" library="Parts" deviceset="TPST*" device="106K016R0800" value="10uF16V"/>
 </parts>
 <sheets>
 <sheet>
@@ -1094,6 +1147,8 @@ TOROID, INDUCTOR, etc...</description>
 <instance part="U1" gate="G$1" x="203.2" y="58.42"/>
 <instance part="GND4" gate="1" x="231.14" y="35.56"/>
 <instance part="C13" gate="G$1" x="236.22" y="55.88"/>
+<instance part="R4" gate="G$1" x="66.04" y="38.1" rot="R90"/>
+<instance part="C14" gate="G$1" x="33.02" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -1161,6 +1216,9 @@ TOROID, INDUCTOR, etc...</description>
 <wire x1="48.26" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <junction x="48.26" y="127"/>
+<pinref part="C14" gate="G$1" pin="+"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="+VS"/>
@@ -1259,7 +1317,15 @@ TOROID, INDUCTOR, etc...</description>
 <junction x="127" y="33.02"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="38.1" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<junction x="66.04" y="33.02"/>
+<pinref part="C14" gate="G$1" pin="-"/>
+<wire x1="33.02" y1="48.26" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
+<junction x="48.26" y="33.02"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="VSS"/>
@@ -1356,8 +1422,12 @@ TOROID, INDUCTOR, etc...</description>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="71.12" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <label x="55.88" y="58.42" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="48.26" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<junction x="66.04" y="58.42"/>
 </segment>
 </net>
 <net name="RESE" class="0">
