@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -554,8 +554,8 @@ vertical, grid 5.08 mm</description>
 <text x="-8.27" y="-10" size="1.27" layer="21">11</text>
 <text x="-10.27" y="-6" size="1.27" layer="21">10</text>
 <text x="-9" y="-0.5" size="1.27" layer="21">9</text>
-<text x="-8.73" y="5" size="1.27" layer="21">8</text>
-<text x="-6.73" y="9" size="1.27" layer="21">7</text>
+<text x="-9.0475" y="5" size="1.27" layer="21">8</text>
+<text x="-7.0475" y="9" size="1.27" layer="21">7</text>
 </package>
 <package name="B3F-10XX">
 <description>&lt;b&gt;TACT SWITCH&lt;/b&gt;</description>
