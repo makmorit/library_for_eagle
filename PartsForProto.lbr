@@ -3602,7 +3602,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SMD-DEV" package="FH12A-24S-0.5SH_DEV">
+<device name="-SMD_" package="FH12A-24S-0.5SH_DEV">
 <connects>
 <connect gate="G$1" pin="BS1" pad="8"/>
 <connect gate="G$1" pin="BUSY" pad="9"/>
