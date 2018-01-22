@@ -1481,7 +1481,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <part name="+3V1" library="Supply" deviceset="+3V3" device=""/>
 <part name="GND1" library="Supply" deviceset="0V" device=""/>
 <part name="C9" library="Parts" deviceset="CAP" device="_0805" value="0.1uF16V"/>
-<part name="L1" library="Parts" deviceset="NLCV*" device="25T" value="10uH"/>
+<part name="L1" library="Parts" deviceset="NLCV*" device="25T_" value="10uH"/>
 <part name="Q1" library="Parts" deviceset="PMF370XN" device="_"/>
 <part name="R3" library="Parts" deviceset="RESISTOR" device="_0805" value="0.47"/>
 <part name="GND2" library="Supply" deviceset="0V" device=""/>
@@ -1498,7 +1498,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
 <part name="C13" library="Parts" deviceset="CAP" device="_0805" value="0.1uF50V"/>
 <part name="R2" library="Parts" deviceset="RESISTOR" device="_0805" value="100k"/>
-<part name="C7" library="Parts" deviceset="TPST*" device="106K016R0800" value="10uF16V"/>
+<part name="C7" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF16V"/>
 <part name="R1" library="Parts" deviceset="RESISTOR" device="_0805" value="10"/>
 <part name="C8" library="Parts" deviceset="CAP" device="_0805" value="1uF16V"/>
 </parts>
