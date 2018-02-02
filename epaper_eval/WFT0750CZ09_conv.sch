@@ -204,34 +204,34 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="2" x="2.54" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="3" x="5.08" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="4" x="7.62" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
-<text x="0" y="2.54" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-4.7625" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.4925" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<text x="4.1275" y="-2.8575" size="0.7112" layer="21">BSY</text>
-<text x="11.938" y="-2.8575" size="0.7112" layer="21">CS</text>
-<text x="6.6675" y="-2.8575" size="0.7112" layer="21">RES</text>
-<text x="9.525" y="-2.8575" size="0.7112" layer="21">DC</text>
+<text x="4.1275" y="2.2225" size="0.7112" layer="21">BSY</text>
+<text x="11.938" y="2.2225" size="0.7112" layer="21">CS</text>
+<text x="6.6675" y="2.2225" size="0.7112" layer="21">RES</text>
+<text x="9.525" y="2.2225" size="0.7112" layer="21">DC</text>
 <pad name="5" x="10.16" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<text x="14.31925" y="-2.8575" size="0.7112" layer="21">CLK</text>
+<text x="14.31925" y="2.2225" size="0.7112" layer="21">CLK</text>
 <pad name="6" x="12.7" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="7" x="15.24" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="8" x="17.78" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-<text x="21.93925" y="-2.8575" size="0.7112" layer="21">VSS</text>
-<text x="16.8275" y="-2.8575" size="0.7112" layer="21">DAT</text>
-<text x="19.52625" y="-2.8575" size="0.7112" layer="21">VCI</text>
+<text x="21.93925" y="2.2225" size="0.7112" layer="21">VSS</text>
+<text x="16.8275" y="2.2225" size="0.7112" layer="21">DAT</text>
+<text x="19.52625" y="2.2225" size="0.7112" layer="21">VCI</text>
 <pad name="9" x="20.32" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <pad name="10" x="22.86" y="0" drill="1" diameter="1.6" shape="long" rot="R90"/>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
-<text x="1.4605" y="-2.8575" size="0.6096" layer="21">FDSO</text>
-<text x="-1.11125" y="-2.8575" size="0.6096" layer="21">FCSB</text>
+<text x="1.4605" y="2.2225" size="0.6096" layer="21">FDSO</text>
+<text x="-1.11125" y="2.2225" size="0.6096" layer="21">FCSB</text>
 </package>
 <package name="FH12A-24S-0.5SH">
 <description>&lt;b&gt;0.5mm Pitch Connectors For FPC/FFC&lt;/b&gt;&lt;p&gt;
@@ -1474,13 +1474,13 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <part name="CN2" library="PartsForProto" deviceset="WFT0750CZ09" device="-SMD_" value="WFT0750CZ09-SMD_"/>
 <part name="C1" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
 <part name="C2" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
-<part name="C3" library="Parts" deviceset="CAP" device="_0805" value="1uF50V"/>
-<part name="C4" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
+<part name="C4" library="Parts" deviceset="CAP" device="_0805" value="1uF50V"/>
 <part name="C5" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
-<part name="C6" library="Parts" deviceset="CAP" device="_0805" value="1uF50V"/>
+<part name="C6" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
+<part name="C7" library="Parts" deviceset="CAP" device="_0805" value="1uF50V"/>
 <part name="+3V1" library="Supply" deviceset="+3V3" device=""/>
 <part name="GND1" library="Supply" deviceset="0V" device=""/>
-<part name="C9" library="Parts" deviceset="CAP" device="_0805" value="0.1uF16V"/>
+<part name="C10" library="Parts" deviceset="CAP" device="_0805" value="0.1uF16V"/>
 <part name="L1" library="Parts" deviceset="NLCV*" device="25T_" value="10uH"/>
 <part name="Q1" library="Parts" deviceset="PMF370XN" device="_"/>
 <part name="R3" library="Parts" deviceset="RESISTOR" device="_0805" value="0.47"/>
@@ -1488,19 +1488,19 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <part name="D1" library="Parts" deviceset="MBR0530" device="_" value="MBR0530_"/>
 <part name="D2" library="Parts" deviceset="MBR0530" device="_" value="MBR0530_"/>
 <part name="D3" library="Parts" deviceset="MBR0530" device="_" value="MBR0530_"/>
-<part name="C10" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
-<part name="C11" library="Parts" deviceset="CAP" device="_0805" value="4.7uF50V"/>
-<part name="C12" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
+<part name="C11" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
+<part name="C12" library="Parts" deviceset="CAP" device="_0805" value="4.7uF50V"/>
+<part name="C13" library="Parts" deviceset="CAP" device="_0805" value="10uF50V"/>
 <part name="+3V2" library="Supply" deviceset="+3V3" device=""/>
 <part name="R5" library="Parts" deviceset="RESISTOR" device="_0805" value="4.7k"/>
 <part name="R4" library="Parts" deviceset="RESISTOR" device="_0805" value="4.7k"/>
 <part name="U1" library="Parts" deviceset="LM75B*" device="IMM-3_" value="LM75BIMM-3_"/>
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
-<part name="C13" library="Parts" deviceset="CAP" device="_0805" value="0.1uF50V"/>
+<part name="C14" library="Parts" deviceset="CAP" device="_0805" value="0.1uF50V"/>
 <part name="R2" library="Parts" deviceset="RESISTOR" device="_0805" value="100k"/>
-<part name="C7" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF16V"/>
-<part name="R1" library="Parts" deviceset="RESISTOR" device="_0805" value="10"/>
-<part name="C8" library="Parts" deviceset="CAP" device="_0805" value="1uF16V"/>
+<part name="C8" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF16V"/>
+<part name="C9" library="Parts" deviceset="CAP" device="_0805" value="1uF16V"/>
+<part name="C3" library="Parts" deviceset="CAP" device="_0805" value="1uF50V"/>
 </parts>
 <sheets>
 <sheet>
@@ -1510,15 +1510,15 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="CN1" gate="G$1" x="35.56" y="147.32"/>
 <instance part="CN2" gate="G$1" x="160.02" y="162.56"/>
-<instance part="C1" gate="G$1" x="71.12" y="99.06"/>
-<instance part="C2" gate="G$1" x="83.82" y="99.06"/>
-<instance part="C3" gate="G$1" x="96.52" y="99.06"/>
-<instance part="C4" gate="G$1" x="109.22" y="99.06"/>
-<instance part="C5" gate="G$1" x="121.92" y="99.06"/>
-<instance part="C6" gate="G$1" x="134.62" y="99.06"/>
+<instance part="C1" gate="G$1" x="58.42" y="99.06"/>
+<instance part="C2" gate="G$1" x="71.12" y="99.06"/>
+<instance part="C4" gate="G$1" x="96.52" y="99.06"/>
+<instance part="C5" gate="G$1" x="109.22" y="99.06"/>
+<instance part="C6" gate="G$1" x="121.92" y="99.06"/>
+<instance part="C7" gate="G$1" x="134.62" y="99.06"/>
 <instance part="+3V1" gate="G$1" x="48.26" y="162.56"/>
 <instance part="GND1" gate="1" x="149.86" y="78.74"/>
-<instance part="C9" gate="G$1" x="48.26" y="55.88"/>
+<instance part="C10" gate="G$1" x="48.26" y="55.88"/>
 <instance part="L1" gate="G$1" x="55.88" y="71.12"/>
 <instance part="Q1" gate="G$1" x="73.66" y="60.96"/>
 <instance part="R3" gate="G$1" x="76.2" y="38.1" rot="R90"/>
@@ -1526,19 +1526,19 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <instance part="D1" gate="G$1" x="101.6" y="60.96" rot="R270"/>
 <instance part="D2" gate="G$1" x="127" y="60.96" rot="R270"/>
 <instance part="D3" gate="G$1" x="149.86" y="60.96" rot="R90"/>
-<instance part="C10" gate="G$1" x="101.6" y="48.26"/>
-<instance part="C11" gate="G$1" x="111.76" y="71.12" rot="R90"/>
-<instance part="C12" gate="G$1" x="149.86" y="48.26"/>
+<instance part="C11" gate="G$1" x="101.6" y="48.26"/>
+<instance part="C12" gate="G$1" x="111.76" y="71.12" rot="R90"/>
+<instance part="C13" gate="G$1" x="149.86" y="48.26"/>
 <instance part="+3V2" gate="G$1" x="236.22" y="83.82"/>
 <instance part="R5" gate="G$1" x="200.66" y="63.5" rot="R90"/>
 <instance part="R4" gate="G$1" x="193.04" y="63.5" rot="R90"/>
 <instance part="U1" gate="G$1" x="203.2" y="58.42"/>
 <instance part="GND4" gate="1" x="231.14" y="35.56"/>
-<instance part="C13" gate="G$1" x="236.22" y="55.88"/>
+<instance part="C14" gate="G$1" x="236.22" y="55.88"/>
 <instance part="R2" gate="G$1" x="66.04" y="38.1" rot="R90"/>
-<instance part="C7" gate="G$1" x="22.86" y="55.88"/>
-<instance part="R1" gate="G$1" x="55.88" y="124.46"/>
-<instance part="C8" gate="G$1" x="35.56" y="55.88"/>
+<instance part="C8" gate="G$1" x="22.86" y="55.88"/>
+<instance part="C9" gate="G$1" x="35.56" y="55.88"/>
+<instance part="C3" gate="G$1" x="83.82" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -1546,7 +1546,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <net name="N$1" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VCOM"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="104.14" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -1554,7 +1554,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VSL"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="109.22" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -1562,7 +1562,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <net name="N$3" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VSH"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="114.3" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -1580,7 +1580,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <net name="N$5" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VDD"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -1588,7 +1588,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="+VS"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="58.42" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -1605,44 +1605,52 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <junction x="200.66" y="76.2"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="71.12" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="48.26" y2="127" width="0.1524" layer="91"/>
 <junction x="48.26" y="71.12"/>
 <pinref part="CN1" gate="G$1" pin="VCI"/>
-<wire x1="48.26" y1="124.46" x2="48.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <junction x="48.26" y="127"/>
-<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="22.86" y1="55.88" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="35.56" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="160.02" x2="48.26" y2="127" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
-<junction x="48.26" y="124.46"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="55.88" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <junction x="35.56" y="71.12"/>
+<pinref part="CN2" gate="G$1" pin="VDDIO"/>
+<wire x1="160.02" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="124.46" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<pinref part="CN2" gate="G$1" pin="VCI"/>
+<wire x1="160.02" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<junction x="134.62" y="127"/>
+<label x="38.1" y="127" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="99.06" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<junction x="83.82" y="127"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VGH"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="152.4" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="152.4" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VGL"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="154.94" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="154.94" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="154.94" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1692,7 +1700,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <pinref part="GND2" gate="1" pin="0V"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="33.02" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="33.02" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
@@ -1701,48 +1709,49 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <wire x1="101.6" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="127" y1="33.02" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <junction x="101.6" y="33.02"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="127" y1="33.02" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="33.02" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
 <junction x="127" y="33.02"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <junction x="66.04" y="33.02"/>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C8" gate="G$1" pin="-"/>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <junction x="48.26" y="33.02"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="48.26" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <junction x="35.56" y="33.02"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="91.44" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <junction x="121.92" y="86.36"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="91.44" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <junction x="109.22" y="86.36"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="91.44" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 <junction x="96.52" y="86.36"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="91.44" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<junction x="83.82" y="86.36"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="91.44" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<junction x="71.12" y="86.36"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="91.44" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="0V"/>
 <wire x1="134.62" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="86.36" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
@@ -1753,13 +1762,16 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <junction x="149.86" y="86.36"/>
 <pinref part="CN1" gate="G$1" pin="VSS"/>
 <wire x1="35.56" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="86.36" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
-<junction x="71.12" y="86.36"/>
+<junction x="58.42" y="86.36"/>
 <pinref part="CN2" gate="G$1" pin="BS1"/>
 <wire x1="160.02" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="144.78" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="149.86" y="121.92"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="91.44" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
+<junction x="83.82" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A2"/>
@@ -1780,7 +1792,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <wire x1="231.14" y1="53.34" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="231.14" y="53.34"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="48.26" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -1795,7 +1807,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <junction x="76.2" y="71.12"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <junction x="101.6" y="71.12"/>
 </segment>
@@ -1834,7 +1846,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 </net>
 <net name="PREVGH" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="48.26" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="53.34" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
@@ -1855,7 +1867,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <label x="134.62" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="48.26" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="53.34" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
@@ -1866,7 +1878,7 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="71.12" x2="127" y2="63.5" width="0.1524" layer="91"/>
@@ -1916,18 +1928,6 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <wire x1="121.92" y1="162.56" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="MFCSB"/>
 <wire x1="121.92" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="CN2" gate="G$1" pin="VDDIO"/>
-<wire x1="160.02" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="124.46" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<pinref part="CN2" gate="G$1" pin="VCI"/>
-<wire x1="160.02" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<junction x="134.62" y="124.46"/>
 </segment>
 </net>
 </nets>
