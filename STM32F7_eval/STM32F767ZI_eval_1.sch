@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2101,6 +2101,22 @@ for STM32F7　手はんだパターン</description>
 <rectangle x1="8.6" y1="-11.45" x2="8.9" y2="-10.05" layer="31"/>
 <rectangle x1="-10.95" y1="-10.95" x2="10.95" y2="10.95" layer="39"/>
 </package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F767ZI">
@@ -2855,7 +2871,7 @@ TOROID, INDUCTOR, etc...</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0805" package="C0805">
+<device name="_1206" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4354,8 +4370,8 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C19" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
 <part name="R9" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="GND6" library="Supply" deviceset="0V" device=""/>
-<part name="C20" library="Parts" deviceset="CAP" device="_0603_DEV" value="2.2uF X7R"/>
-<part name="C21" library="Parts" deviceset="CAP" device="_0603_DEV" value="2.2uF X7R"/>
+<part name="C20" library="Parts" deviceset="CAP" device="_1206" value="2.2uF X7R"/>
+<part name="C21" library="Parts" deviceset="CAP" device="_1206" value="2.2uF X7R"/>
 <part name="GND7" library="Supply" deviceset="0V" device=""/>
 <part name="U2" library="Parts" deviceset="LD39050PU33R" device="_DEV" value="LD39050PU33R_DEV"/>
 <part name="C18" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
@@ -4422,6 +4438,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="CN8" library="PartsForProto" deviceset="MCO_IF" device=""/>
 <part name="CN9" library="PartsForProto" deviceset="UART_IF" device=""/>
 <part name="C39" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF"/>
+<part name="R8" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -4517,6 +4534,7 @@ VCAP_1/VCAP_2の近傍に設置</text>
 <instance part="+3V1" gate="G$1" x="330.2" y="228.6"/>
 <instance part="+3V2" gate="G$1" x="20.32" y="200.66"/>
 <instance part="+3V3" gate="G$1" x="83.82" y="241.3"/>
+<instance part="R8" gate="G$1" x="167.64" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -4757,6 +4775,11 @@ VCAP_1/VCAP_2の近傍に設置</text>
 <wire x1="330.2" y1="200.66" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="187.96" x2="320.04" y2="187.96" width="0.1524" layer="91"/>
 <junction x="320.04" y="187.96"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="233.68" x2="185.42" y2="233.68" width="0.1524" layer="91"/>
+<label x="180.34" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5272,6 +5295,11 @@ VCAP_1/VCAP_2の近傍に設置</text>
 <wire x1="17.78" y1="93.98" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
 <label x="17.78" y="99.06" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PDR_ON"/>
+<wire x1="149.86" y1="218.44" x2="149.86" y2="228.6" width="0.1524" layer="91"/>
+<label x="149.86" y="220.98" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="PD9" class="0">
 <segment>
@@ -5405,6 +5433,15 @@ VCAP_1/VCAP_2の近傍に設置</text>
 <pinref part="U1" gate="G$1" pin="PE0"/>
 <wire x1="154.94" y1="218.44" x2="154.94" y2="228.6" width="0.1524" layer="91"/>
 <label x="154.94" y="220.98" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="BOOT0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="BOOT0"/>
+<wire x1="162.56" y1="218.44" x2="162.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="233.68" x2="167.64" y2="233.68" width="0.1524" layer="91"/>
+<label x="162.56" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
