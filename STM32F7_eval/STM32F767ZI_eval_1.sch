@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -59,7 +59,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -4363,7 +4363,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C23" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF X5R"/>
 <part name="C24" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF"/>
 <part name="R10" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
-<part name="C22" library="Parts" deviceset="CAP" device="_0603_DEV" value="4.7uF"/>
+<part name="C22" library="Parts" deviceset="CAP" device="_0805_DEV" value="4.7uF"/>
 <part name="GND9" library="Supply" deviceset="0V" device=""/>
 <part name="FB1" library="Parts" deviceset="BLM21PG" device="300SN1D"/>
 <part name="C25" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF35V"/>
@@ -5691,6 +5691,11 @@ VCAP_1/VCAP_2の近傍に設置</text>
 <pinref part="CN6" gate="G$1" pin="+5V"/>
 <wire x1="30.48" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="20.32" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN5" gate="G$1" pin="+5V"/>
+<wire x1="129.54" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<label x="132.08" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC0" class="0">
