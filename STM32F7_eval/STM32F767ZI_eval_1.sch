@@ -4347,18 +4347,18 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="FRAME1" library="Generic" deviceset="A3L-LOC" device=""/>
 <part name="U1" library="Parts" deviceset="STM32F767ZI" device="_" value="STM32F767ZI_"/>
 <part name="GND1" library="Supply" deviceset="0V" device=""/>
-<part name="C1" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C2" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C3" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C4" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C5" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C6" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C7" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C8" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C9" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C10" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C11" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
-<part name="C12" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C1" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C2" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C3" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C4" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C5" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C6" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C7" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C8" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C9" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C10" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C11" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
+<part name="C12" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="X1" library="Parts" deviceset="NX3215SA" device="-32.768K"/>
 <part name="C13" library="Parts" deviceset="CAP" device="_0603_DEV" value="2pF"/>
 <part name="C14" library="Parts" deviceset="CAP" device="_0603_DEV" value="2pF"/>
@@ -4379,20 +4379,20 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="CN5" library="PartsForProto" deviceset="ARDUINO_COMPAT_IF" device=""/>
 <part name="CN6" library="PartsForProto" deviceset="STLINKV21_SWD_IF" device=""/>
 <part name="SW1" library="Parts" deviceset="SKRPACE010" device="_" value="SKRPACE010_"/>
-<part name="C17" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C17" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
 <part name="SW2" library="Parts" deviceset="SKRPACE010" device="_" value="SKRPACE010_"/>
-<part name="R6" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="330"/>
-<part name="R7" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="220k"/>
+<part name="R6" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="300"/>
+<part name="R7" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="200k"/>
 <part name="GND5" library="Supply" deviceset="0V" device=""/>
-<part name="C19" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C19" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="R9" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="GND6" library="Supply" deviceset="0V" device=""/>
 <part name="C20" library="Parts" deviceset="CAP" device="_1206" value="2.2uF X7R"/>
 <part name="C21" library="Parts" deviceset="CAP" device="_1206" value="2.2uF X7R"/>
 <part name="GND7" library="Supply" deviceset="0V" device=""/>
 <part name="U2" library="Parts" deviceset="LD39050PU33R" device="_DEV" value="LD39050PU33R_DEV"/>
-<part name="C18" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C18" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND8" library="Supply" deviceset="0V" device=""/>
 <part name="C23" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF X5R"/>
 <part name="C24" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF"/>
@@ -4400,7 +4400,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C22" library="Parts" deviceset="CAP" device="_0805_DEV" value="4.7uF"/>
 <part name="GND9" library="Supply" deviceset="0V" device=""/>
 <part name="FB1" library="Parts" deviceset="BLM21PG" device="300SN1D"/>
-<part name="C25" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF35V"/>
+<part name="C25" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF"/>
 <part name="R13" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="680"/>
 <part name="R14" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="1k"/>
 <part name="D1" library="Parts" deviceset="LED" device="_0805"/>
@@ -4419,7 +4419,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="+3V2" library="Supply" deviceset="+3V3" device=""/>
 <part name="+3V3" library="Supply" deviceset="+3V3" device=""/>
 <part name="FRAME3" library="Generic" deviceset="A4L-LOC" device=""/>
-<part name="C28" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C28" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C29" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
 <part name="R19" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="3.3k"/>
 <part name="R20" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="3.3k"/>
@@ -4429,19 +4429,19 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="U3" library="Parts" deviceset="LM75B*" device="IMM-3_"/>
 <part name="R11" library="Parts" deviceset="RESISTOR" device="_0805_DEV" value="3.3k"/>
 <part name="R12" library="Parts" deviceset="RESISTOR" device="_0805_DEV" value="3.3k"/>
-<part name="C26" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C26" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND10" library="Supply" deviceset="0V" device=""/>
 <part name="R21" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="10k"/>
-<part name="C27" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
-<part name="C30" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
+<part name="C27" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
+<part name="C30" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
 <part name="GND15" library="Supply" deviceset="0V" device=""/>
-<part name="C31" library="Parts" deviceset="CAP" device="_0805_DEV" value="1uF35V"/>
+<part name="C31" library="Parts" deviceset="CAP" device="_0805_DEV" value="1uF"/>
 <part name="GND16" library="Supply" deviceset="0V" device=""/>
-<part name="C32" library="Parts" deviceset="CAP" device="_0805_DEV" value="1uF35V"/>
-<part name="C33" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
-<part name="C34" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
-<part name="C35" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
-<part name="C36" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF50V"/>
+<part name="C32" library="Parts" deviceset="CAP" device="_0805_DEV" value="1uF"/>
+<part name="C33" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
+<part name="C34" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
+<part name="C35" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
+<part name="C36" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
 <part name="Q1" library="Parts" deviceset="PMF370XN" device="_"/>
 <part name="L1" library="Parts" deviceset="NLCV*" device="25T_" value="10uH"/>
 <part name="R22" library="Parts" deviceset="RESISTOR" device="_0805_DEV" value="0.47"/>
@@ -4450,7 +4450,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="D5" library="Parts" deviceset="MBR0530" device="_"/>
 <part name="D6" library="Parts" deviceset="MBR0530" device="_"/>
 <part name="D7" library="Parts" deviceset="MBR0530" device="_"/>
-<part name="C38" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C38" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND17" library="Supply" deviceset="0V" device=""/>
 <part name="R24" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="CN8" library="PartsForProto" deviceset="MCO_IF" device=""/>
@@ -4460,7 +4460,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="AGND1" library="Supply" deviceset="AGND" device=""/>
 <part name="AGND2" library="Supply" deviceset="AGND" device=""/>
 <part name="C40" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF X5R"/>
-<part name="C41" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF50V"/>
+<part name="C41" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4520,7 +4520,7 @@ LDOのVOUT近傍に設置</text>
 <instance part="SW1" gate="G$1" x="236.22" y="45.72" rot="R270"/>
 <instance part="C17" gate="G$1" x="232.41" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="234.569" y="28.194" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="239.649" y="23.114" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="239.649" y="28.194" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="246.38" y="20.32"/>
 <instance part="SW2" gate="G$1" x="167.64" y="45.72" rot="R270"/>
@@ -5889,7 +5889,7 @@ EPDのサイズに応じて下記を選択のこと。
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="C28" gate="G$1" x="60.96" y="27.94"/>
-<instance part="C29" gate="G$1" x="50.8" y="27.94"/>
+<instance part="C29" gate="G$1" x="45.72" y="27.94"/>
 <instance part="R19" gate="G$1" x="109.22" y="33.02" rot="R90"/>
 <instance part="R20" gate="G$1" x="116.84" y="33.02" rot="R90"/>
 <instance part="U5" gate="G$1" x="76.2" y="33.02"/>
@@ -5938,8 +5938,8 @@ EPDのサイズに応じて下記を選択のこと。
 <wire x1="60.96" y1="20.32" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="17.78" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="17.78" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="17.78"/>
 <pinref part="U5" gate="G$1" pin="GND"/>
 <pinref part="GND13" gate="1" pin="0V"/>
@@ -6056,14 +6056,14 @@ EPDのサイズに応じて下記を選択のこと。
 <segment>
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="30.48" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <junction x="60.96" y="30.48"/>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
-<junction x="50.8" y="30.48"/>
-<label x="50.8" y="33.02" size="1.778" layer="95"/>
+<wire x1="45.72" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<junction x="45.72" y="30.48"/>
+<label x="38.1" y="30.48" size="1.778" layer="95"/>
 <pinref part="U5" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
