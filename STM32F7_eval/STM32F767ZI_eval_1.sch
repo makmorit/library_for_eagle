@@ -2151,7 +2151,7 @@ for STM32F7　手はんだパターン</description>
 <description>&lt;b&gt;20-Lead, DQFN&lt;/b&gt;&lt;p&gt;
 2.5x4.5 mm package</description>
 <smd name="0" x="0" y="0" dx="2.9" dy="1" layer="1" stop="no"/>
-<text x="-1.55" y="1.995" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-1.55" y="2.1" size="0.7112" layer="25">&gt;NAME</text>
 <text x="-1.475" y="-2.78" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.5" y1="-0.55" x2="1.5" y2="0.55" layer="29"/>
 <smd name="20" x="-2.3" y="0.25" dx="0.9" dy="0.24" layer="1" stop="no"/>
