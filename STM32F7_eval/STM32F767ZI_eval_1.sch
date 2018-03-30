@@ -4769,7 +4769,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <text x="137.16" y="55.88" size="2.54" layer="91">ユーザーボタン回路</text>
 <text x="218.44" y="55.88" size="2.54" layer="91">リセットボタン回路</text>
 <text x="27.94" y="127" size="1.778" layer="91" align="top-left">低ESRのセラミックコンデンサーを
-VCAP_1/VCAP_2の近傍に設置</text>
+VCAP_1/VCAP_2に接続</text>
 <text x="297.18" y="12.7" size="2.54" layer="91">メインデバイス配線図</text>
 <text x="20.32" y="241.3" size="2.54" layer="91">電源回路（入力は4.5V〜5.0V想定）</text>
 <text x="304.8" y="139.7" size="1.778" layer="91">赤色LED</text>
@@ -5521,11 +5521,6 @@ LDOのVOUT近傍に設置</text>
 <label x="256.54" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCAP_2"/>
-<wire x1="254" y1="195.58" x2="264.16" y2="195.58" width="0.1524" layer="91"/>
-<label x="256.54" y="195.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="VDDUSB"/>
 <wire x1="254" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
 <label x="256.54" y="167.64" size="1.778" layer="95"/>
@@ -5539,11 +5534,6 @@ LDOのVOUT近傍に設置</text>
 <pinref part="U1" gate="G$1" pin="VDD5"/>
 <wire x1="236.22" y1="93.98" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="236.22" y="86.36" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VCAP_1"/>
-<wire x1="233.68" y1="93.98" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
-<label x="233.68" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD4"/>
@@ -5599,16 +5589,6 @@ LDOのVOUT近傍に設置</text>
 <junction x="93.98" y="43.18"/>
 <wire x1="17.78" y1="43.18" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="17.78" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="160.02" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="147.32" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="147.32" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
-<junction x="22.86" y="147.32"/>
-<label x="22.86" y="152.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="S"/>
@@ -5821,6 +5801,30 @@ LDOのVOUT近傍に設置</text>
 <pinref part="U1" gate="G$1" pin="PC12"/>
 <wire x1="226.06" y1="218.44" x2="226.06" y2="228.6" width="0.1524" layer="91"/>
 <label x="226.06" y="220.98" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="VCAP_2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VCAP_2"/>
+<wire x1="254" y1="195.58" x2="264.16" y2="195.58" width="0.1524" layer="91"/>
+<label x="256.54" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="142.24" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
+<label x="38.1" y="144.78" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="VCAP_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VCAP_1"/>
+<wire x1="233.68" y1="93.98" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
+<label x="233.68" y="83.82" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="142.24" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
+<label x="22.86" y="144.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
