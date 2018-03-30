@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1011,8 +1011,8 @@ LOW PROFILE SMD&lt;b&gt;</description>
 <wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.2032" layer="51"/>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.2032" layer="51"/>
 <circle x="0" y="0" radius="0.175" width="0" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="1.5" dy="2.7" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.5" dy="2.7" layer="1"/>
+<smd name="1" x="-1" y="0" dx="1.4" dy="2.7" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.4" dy="2.7" layer="1"/>
 <text x="-1.825" y="1.625" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.825" y="-2.45" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
@@ -2209,6 +2209,32 @@ for STM32F7　手はんだパターン</description>
 <wire x1="-2.25" y1="0.65" x2="-2.25" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="2.25" y1="0.65" x2="2.25" y2="-0.65" width="0.127" layer="51"/>
 </package>
+<package name="NX3215_DEV">
+<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
+LOW PROFILE SMD&lt;b&gt;</description>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="0.175" width="0" layer="21"/>
+<smd name="1" x="-1.65" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.9" dy="1.9" layer="1"/>
+<text x="-1.825" y="1.225" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.825" y="-2.05" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="NX3225_DEV">
+<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
+LOW PROFILE SMD&lt;b&gt;</description>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="0.175" width="0" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="2.2" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="2.2" dy="2.7" layer="1"/>
+<text x="-1.825" y="1.625" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.825" y="-2.45" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F767ZI">
@@ -3081,6 +3107,15 @@ ESR（等価直列抵抗）	70 kOhms&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="_" package="NX3215_DEV">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -3159,6 +3194,15 @@ ESR（等価直列抵抗）	500 Ohms&lt;br&gt;
 </gates>
 <devices>
 <device name="-8MHZ" package="NX3225">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_" package="NX3225_DEV">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4641,13 +4685,13 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C10" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C11" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C12" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
-<part name="X1" library="Parts" deviceset="NX3215SA" device="-32.768K"/>
+<part name="X1" library="Parts" deviceset="NX3215SA" device="_" value="NX3215SA_"/>
 <part name="C13" library="Parts" deviceset="CAP" device="_0603_DEV" value="2pF"/>
 <part name="C14" library="Parts" deviceset="CAP" device="_0603_DEV" value="2pF"/>
 <part name="GND2" library="Supply" deviceset="0V" device=""/>
 <part name="R1" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="R2" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
-<part name="X2" library="Parts" deviceset="NX3225GD" device="-8MHZ"/>
+<part name="X2" library="Parts" deviceset="NX3225GD" device="_" value="NX3225GD_"/>
 <part name="C15" library="Parts" deviceset="CAP" device="_0603_DEV" value="4.3pF"/>
 <part name="C16" library="Parts" deviceset="CAP" device="_0603_DEV" value="4.3pF"/>
 <part name="GND3" library="Supply" deviceset="0V" device=""/>
@@ -6681,6 +6725,7 @@ C1608X5R1A105K </text>
 C2012X5R1C105K
 C1608X5R1A105K
 C3216X7R1C105K </text>
+<text x="104.14" y="160.02" size="2.54" layer="91">フラッシュメモリー回路図</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
