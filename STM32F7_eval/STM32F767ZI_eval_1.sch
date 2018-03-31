@@ -4804,6 +4804,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="GND19" library="Supply" deviceset="0V" device=""/>
 <part name="R25" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="+3V4" library="Supply" deviceset="+3V3" device=""/>
+<part name="R26" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -6259,6 +6260,7 @@ EPDのサイズに応じて下記を選択のこと。
 <instance part="GND17" gate="1" x="73.66" y="106.68"/>
 <instance part="R24" gate="G$1" x="154.94" y="114.3"/>
 <instance part="C39" gate="G$1" x="27.94" y="137.16"/>
+<instance part="R26" gate="G$1" x="137.16" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -6383,31 +6385,6 @@ EPDのサイズに応じて下記を選択のこと。
 <pinref part="U5" gate="G$1" pin="!RESET!"/>
 <wire x1="76.2" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 <label x="63.5" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="C29" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="30.48" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
-<junction x="60.96" y="30.48"/>
-<wire x1="45.72" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<junction x="45.72" y="30.48"/>
-<label x="38.1" y="30.48" size="1.778" layer="95"/>
-<pinref part="U5" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="43.18" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="45.72" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<junction x="116.84" y="45.72"/>
-<label x="119.38" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB10" class="0">
@@ -6700,6 +6677,39 @@ EPDのサイズに応じて下記を選択のこと。
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
 <label x="144.78" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC_STSAFE" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="43.18" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="43.18" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<junction x="116.84" y="45.72"/>
+<label x="119.38" y="45.72" size="1.778" layer="95"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<wire x1="76.2" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<junction x="45.72" y="30.48"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<junction x="60.96" y="30.48"/>
+<label x="27.94" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
