@@ -2117,17 +2117,18 @@ for STM32F7　手はんだパターン</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="SC-70-4">
-<description>&lt;b&gt;SC70-4&lt;/b&gt;&lt;p&gt;</description>
+<package name="SC-70-4_DEV">
+<description>&lt;b&gt;SC70-4&lt;/b&gt;&lt;p&gt;
+手はんだパターン</description>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
 <circle x="-1.3875" y="-0.489" radius="0.127" width="0.127" layer="21"/>
-<smd name="1" x="-0.65" y="-0.925" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0.65" y="-0.925" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.65" y="0.925" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-0.65" y="0.925" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
-<text x="-0.9525" y="2.2225" size="0.7112" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-2.8575" size="0.7112" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.65" y="-1.425" dx="0.4" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.65" y="-1.425" dx="0.4" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.65" y="1.425" dx="0.4" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-0.65" y="1.425" dx="0.4" dy="2" layer="1" stop="no" cream="no"/>
+<text x="1.5" y="0.7" size="0.7112" layer="25">&gt;NAME</text>
+<text x="1.5" y="-0.7" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.1" y1="-1.2" x2="1.1" y2="1.2" layer="39"/>
 <wire x1="-0.3" y1="0.625" x2="0.3" y2="0.625" width="0.127" layer="21"/>
 <rectangle x1="-0.75" y1="0.6" x2="-0.55" y2="1.2" layer="51"/>
@@ -2142,10 +2143,11 @@ for STM32F7　手はんだパターン</description>
 <rectangle x1="0.45" y1="0.425" x2="0.85" y2="1.425" layer="31"/>
 <rectangle x1="0.45" y1="-1.425" x2="0.85" y2="-0.425" layer="31"/>
 <rectangle x1="-0.85" y1="-1.425" x2="-0.45" y2="-0.425" layer="31"/>
-<rectangle x1="-0.9" y1="0.375" x2="-0.4" y2="1.475" layer="29"/>
-<rectangle x1="0.4" y1="0.375" x2="0.9" y2="1.475" layer="29"/>
-<rectangle x1="0.4" y1="-1.475" x2="0.9" y2="-0.375" layer="29"/>
-<rectangle x1="-0.9" y1="-1.475" x2="-0.4" y2="-0.375" layer="29"/>
+<rectangle x1="-0.9" y1="0.375" x2="-0.4" y2="2.475" layer="29"/>
+<rectangle x1="0.4" y1="0.375" x2="0.9" y2="2.475" layer="29"/>
+<rectangle x1="-0.9" y1="-2.475" x2="-0.4" y2="-0.375" layer="29"/>
+<wire x1="-0.3" y1="-0.625" x2="0.3" y2="-0.625" width="0.127" layer="21"/>
+<rectangle x1="0.4" y1="-2.475" x2="0.9" y2="-0.375" layer="29"/>
 </package>
 <package name="DQFN20">
 <description>&lt;b&gt;20-Lead, DQFN&lt;/b&gt;&lt;p&gt;
@@ -3592,7 +3594,7 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 <gate name="G$1" symbol="NCP563" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SC-70-4">
+<device name="" package="SC-70-4_DEV">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="N/C" pad="4"/>
