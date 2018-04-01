@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6219,6 +6219,10 @@ EPDのサイズに応じて下記を選択のこと。
 4.2inch - 4.7uF
 2.9inch - 1uF</text>
 <text x="101.6" y="165.1" size="2.54" layer="91">EPD接続インターフェース回路図</text>
+<text x="111.76" y="22.86" size="1.778" layer="91" align="top-left">I2C_2 を使用
+・PB10 = I2C_SCL 
+・PB11 = I2C_SDA 
+</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -6722,7 +6726,7 @@ VCCピンの近傍に設置</text>
 <text x="200.66" y="76.2" size="1.778" layer="91" align="top-left">!CS!に LOW を出力時は
 フラッシュが使用可能</text>
 <text x="200.66" y="83.82" size="1.778" layer="91" align="top-left">!RESET!は
-GPIOを使用しても制御可能</text>
+STM32のNRSTに接続</text>
 <text x="195.58" y="60.96" size="1.778" layer="91" align="top-left">!OE!に LOW を出力時は
 FXMA108のバスが
 使用可能になる</text>
@@ -6736,6 +6740,12 @@ C2012X5R1C105K
 C1608X5R1A105K
 C3216X7R1C105K </text>
 <text x="104.14" y="160.02" size="2.54" layer="91">フラッシュメモリー回路図</text>
+<text x="132.08" y="101.6" size="1.778" layer="91" align="top-left">SPI_3 を使用
+・PA15 = !CS!
+・PC12 = SPI_MOSI 
+・PC11 = SPI_MISO 
+・PC10 = SPI_SCLK 
+</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
