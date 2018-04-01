@@ -3798,6 +3798,13 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="+1V8">
+<wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+1V8" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="0V" prefix="GND">
@@ -3830,6 +3837,19 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VR1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+1V8" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+1V8" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4530,13 +4550,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pin name="RX" x="0" y="-2.54" length="middle" swaplevel="1"/>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="+1V8">
-<wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+18V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GROVE-4P-CONN-AN01" prefix="CN">
@@ -4777,19 +4790,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1V8" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="+18V" symbol="+1V8" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4922,10 +4922,9 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="GND18" library="Supply" deviceset="0V" device=""/>
 <part name="C42" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="U7" library="Parts" deviceset="FXMA108" device="_" value="FXMA108_"/>
-<part name="SUPPLY1" library="PartsForProto" deviceset="+1V8" device=""/>
-<part name="SUPPLY2" library="PartsForProto" deviceset="+1V8" device=""/>
+<part name="SUPPLY1" library="Supply" deviceset="+1V8" device=""/>
 <part name="GND20" library="Supply" deviceset="0V" device=""/>
-<part name="SUPPLY3" library="PartsForProto" deviceset="+1V8" device=""/>
+<part name="SUPPLY3" library="Supply" deviceset="+1V8" device=""/>
 <part name="GND21" library="Supply" deviceset="0V" device=""/>
 <part name="U8" library="Parts" deviceset="NCP563" device=""/>
 <part name="C43" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF"/>
@@ -4937,6 +4936,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="R25" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="+3V4" library="Supply" deviceset="+3V3" device=""/>
 <part name="R26" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
+<part name="SUPPLY2" library="Supply" deviceset="+1V8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6885,10 +6885,9 @@ C3216X7R1C105K </text>
 <instance part="GND18" gate="1" x="43.18" y="43.18"/>
 <instance part="C42" gate="G$1" x="93.98" y="63.5"/>
 <instance part="U7" gate="G$1" x="157.48" y="83.82"/>
-<instance part="SUPPLY1" gate="+18V" x="93.98" y="93.98"/>
-<instance part="SUPPLY2" gate="+18V" x="193.04" y="99.06"/>
+<instance part="SUPPLY1" gate="G$1" x="93.98" y="93.98"/>
 <instance part="GND20" gate="1" x="132.08" y="43.18"/>
-<instance part="SUPPLY3" gate="+18V" x="147.32" y="149.86"/>
+<instance part="SUPPLY3" gate="G$1" x="147.32" y="149.86"/>
 <instance part="GND21" gate="1" x="124.46" y="114.3"/>
 <instance part="U8" gate="G$1" x="116.84" y="144.78"/>
 <instance part="C43" gate="G$1" x="99.06" y="134.62"/>
@@ -6899,6 +6898,7 @@ C3216X7R1C105K </text>
 <instance part="GND19" gate="1" x="213.36" y="88.9"/>
 <instance part="R25" gate="G$1" x="71.12" y="139.7"/>
 <instance part="+3V4" gate="G$1" x="66.04" y="152.4"/>
+<instance part="SUPPLY2" gate="G$1" x="193.04" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -6957,42 +6957,6 @@ C3216X7R1C105K </text>
 <pinref part="GND19" gate="1" pin="0V"/>
 <wire x1="208.28" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="93.98" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+18V" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="VCCB"/>
-<wire x1="185.42" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="+18V" pin="+18V"/>
-<wire x1="193.04" y1="83.82" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="93.98" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<junction x="193.04" y="93.98"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="88.9" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C42" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="86.36" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
-<junction x="93.98" y="76.2"/>
-<pinref part="SUPPLY1" gate="+18V" pin="+18V"/>
-<pinref part="U6" gate="G$1" pin="!WP!/SIO2"/>
-<wire x1="55.88" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="71.12" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<junction x="93.98" y="86.36"/>
-</segment>
-<segment>
-<pinref part="U8" gate="G$1" pin="VOUT"/>
-<pinref part="SUPPLY3" gate="+18V" pin="+18V"/>
-<wire x1="139.7" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="139.7" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C44" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="139.7" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<junction x="147.32" y="139.7"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
@@ -7081,13 +7045,14 @@ C3216X7R1C105K </text>
 <label x="142.24" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="!OE!" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="!OE!"/>
 <wire x1="193.04" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
+<label x="154.94" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA15" class="0">
@@ -7116,6 +7081,42 @@ C3216X7R1C105K </text>
 <pinref part="U7" gate="G$1" pin="A4"/>
 <wire x1="157.48" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 <label x="142.24" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+1V8" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="VCC"/>
+<wire x1="88.9" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C42" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="86.36" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<junction x="93.98" y="76.2"/>
+<pinref part="SUPPLY1" gate="G$1" pin="+1V8"/>
+<pinref part="U6" gate="G$1" pin="!WP!/SIO2"/>
+<wire x1="55.88" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="71.12" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<junction x="93.98" y="86.36"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="VOUT"/>
+<pinref part="SUPPLY3" gate="G$1" pin="+1V8"/>
+<wire x1="139.7" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C44" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="139.7" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<junction x="147.32" y="139.7"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="VCCB"/>
+<wire x1="185.42" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="+1V8"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="193.04" y="93.98"/>
 </segment>
 </net>
 </nets>
