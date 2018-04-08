@@ -7418,6 +7418,27 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="BLM18EG" prefix="L">
+<description>&lt;b&gt;フェライトビーズ&lt;/b&gt;&lt;p&gt;
+インピーダンス: 100 Ohms&lt;br&gt;
+最大 DC 電流: 2 A&lt;br&gt;
+最大 DC 抵抗: 45 mOhms&lt;br&gt;
+動作温度範囲: - 55 C to + 125 C &lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="101TN1D_" package="SMD_1608_DEV">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
