@@ -7250,7 +7250,7 @@ Pd - 電力損失: 200 mW &lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-3.3YC5" package="SC-70-5_DEV">
+<device name="-3.3YC5_" package="SC-70-5_DEV">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>

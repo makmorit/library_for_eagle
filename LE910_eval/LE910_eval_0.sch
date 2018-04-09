@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2285,7 +2285,7 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-3.3YC5" package="SC-70-5_DEV">
+<device name="-3.3YC5_" package="SC-70-5_DEV">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -2447,6 +2447,103 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <text x="1.905" y="-1.905" size="0.6096" layer="21">RX</text>
 <text x="4.445" y="-1.905" size="0.6096" layer="21">TX</text>
 </package>
+<package name="ARDUINO_COMPAT_IF">
+<description>&lt;b&gt;Arduino互換ピン レイアウトパターン&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="64.77" y1="52.07" x2="64.77" y2="49.53" width="0.127" layer="21"/>
+<wire x1="64.77" y1="49.53" x2="44.45" y2="49.53" width="0.127" layer="21"/>
+<wire x1="44.45" y1="49.53" x2="44.45" y2="52.07" width="0.127" layer="21"/>
+<wire x1="44.45" y1="52.07" x2="64.77" y2="52.07" width="0.127" layer="21"/>
+<pad name="1" x="63.5" y="50.8" drill="0.889" diameter="1.651" shape="square" rot="R270"/>
+<pad name="2" x="60.96" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="3" x="58.42" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="4" x="55.88" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="5" x="53.34" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="6" x="50.8" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="7" x="48.26" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="8" x="45.72" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<text x="65.405" y="52.07" size="0.889" layer="25" ratio="11" rot="R270">&gt;name</text>
+<rectangle x1="53.34" y1="40.64" x2="55.88" y2="60.96" layer="39" rot="R270"/>
+<text x="63.1825" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D0</text>
+<text x="60.6425" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D1</text>
+<text x="58.1025" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D2</text>
+<text x="55.5625" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D3</text>
+<text x="53.0225" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D4</text>
+<text x="50.4825" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D5</text>
+<text x="47.9425" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D6</text>
+<text x="45.4025" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D7</text>
+<wire x1="42.926" y1="52.07" x2="42.926" y2="49.53" width="0.127" layer="21"/>
+<wire x1="42.926" y1="49.53" x2="17.526" y2="49.53" width="0.127" layer="21"/>
+<wire x1="17.526" y1="49.53" x2="17.526" y2="52.07" width="0.127" layer="21"/>
+<wire x1="17.526" y1="52.07" x2="42.926" y2="52.07" width="0.127" layer="21"/>
+<wire x1="42.926" y1="52.07" x2="42.926" y2="49.53" width="0" layer="39"/>
+<wire x1="42.926" y1="49.53" x2="17.526" y2="49.53" width="0" layer="39"/>
+<wire x1="17.526" y1="49.53" x2="17.526" y2="52.07" width="0" layer="39"/>
+<wire x1="17.526" y1="52.07" x2="42.926" y2="52.07" width="0" layer="39"/>
+<pad name="9" x="41.656" y="50.8" drill="0.889" diameter="1.651" shape="square" rot="R270"/>
+<pad name="10" x="39.116" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="11" x="36.576" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="12" x="34.036" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="13" x="31.496" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="14" x="28.956" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="15" x="26.416" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="16" x="23.876" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="17" x="21.336" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="18" x="18.796" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
+<rectangle x1="28.956" y1="38.1" x2="31.496" y2="63.5" layer="39" rot="R270"/>
+<text x="41.275" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D8</text>
+<text x="38.735" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D9</text>
+<text x="36.195" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D10</text>
+<text x="33.655" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D11</text>
+<text x="31.115" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D12</text>
+<text x="28.575" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D13</text>
+<text x="26.035" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">GND</text>
+<text x="23.495" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">AREF</text>
+<text x="20.32" y="48.41875" size="0.8128" layer="21" ratio="11">SDA</text>
+<text x="17.78" y="48.41875" size="0.8128" layer="21" ratio="11">SCL</text>
+<wire x1="49.53" y1="1.27" x2="49.53" y2="3.81" width="0.127" layer="21"/>
+<wire x1="49.53" y1="3.81" x2="64.77" y2="3.81" width="0.127" layer="21"/>
+<wire x1="64.77" y1="3.81" x2="64.77" y2="1.27" width="0.127" layer="21"/>
+<wire x1="64.77" y1="1.27" x2="49.53" y2="1.27" width="0.127" layer="21"/>
+<wire x1="49.53" y1="1.27" x2="49.53" y2="3.81" width="0" layer="39"/>
+<wire x1="49.53" y1="3.81" x2="64.77" y2="3.81" width="0" layer="39"/>
+<wire x1="64.77" y1="3.81" x2="64.77" y2="1.27" width="0" layer="39"/>
+<wire x1="64.77" y1="1.27" x2="49.53" y2="1.27" width="0" layer="39"/>
+<pad name="27" x="50.8" y="2.54" drill="0.889" diameter="1.651" shape="square" rot="R90"/>
+<pad name="28" x="53.34" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
+<pad name="29" x="55.88" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
+<pad name="30" x="58.42" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
+<pad name="31" x="60.96" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
+<pad name="32" x="63.5" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
+<rectangle x1="55.88" y1="-5.08" x2="58.42" y2="10.16" layer="39" rot="R90"/>
+<text x="63.8175" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A5</text>
+<text x="61.2775" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A4</text>
+<text x="58.7375" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A3</text>
+<text x="56.1975" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A2</text>
+<text x="53.6575" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A1</text>
+<text x="51.1175" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A0</text>
+<wire x1="46.99" y1="3.81" x2="46.99" y2="1.27" width="0.127" layer="21"/>
+<wire x1="46.99" y1="1.27" x2="26.67" y2="1.27" width="0.127" layer="21"/>
+<wire x1="26.67" y1="1.27" x2="26.67" y2="3.81" width="0.127" layer="21"/>
+<wire x1="26.67" y1="3.81" x2="46.99" y2="3.81" width="0.127" layer="21"/>
+<pad name="26" x="45.72" y="2.54" drill="0.889" diameter="1.651" shape="square" rot="R270"/>
+<pad name="25" x="43.18" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="24" x="40.64" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="23" x="38.1" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="22" x="35.56" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="21" x="33.02" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="20" x="30.48" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<pad name="19" x="27.94" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
+<rectangle x1="35.56" y1="-7.62" x2="38.1" y2="12.7" layer="39" rot="R270"/>
+<text x="28.321" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">NC</text>
+<text x="30.861" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">IOREF</text>
+<text x="33.401" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">RST</text>
+<text x="35.941" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="38.481" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">5V</text>
+<text x="41.021" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">GND</text>
+<text x="43.561" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">GND</text>
+<text x="46.101" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">VIN</text>
+<text x="66.421" y="52.07" size="0.889" layer="27" ratio="11" rot="R270">&gt;value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RS_232C_IF_9PIN">
@@ -2491,6 +2588,47 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <pin name="RX" x="0" y="-2.54" length="middle" swaplevel="1"/>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="ARDUINO_COMPAT_IF">
+<description>&lt;B&gt;Arduino互換ピンインターフェース&lt;/B&gt;&lt;p&gt;</description>
+<wire x1="2.54" y1="-48.26" x2="35.56" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-48.26" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-48.26" width="0.254" layer="94"/>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-50.8" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="D0" x="0" y="0" length="short"/>
+<pin name="A5" x="38.1" y="0" length="short" rot="R180"/>
+<pin name="D1" x="0" y="-2.54" length="short"/>
+<pin name="A4" x="38.1" y="-2.54" length="short" rot="R180"/>
+<pin name="D2" x="0" y="-5.08" length="short"/>
+<pin name="D3" x="0" y="-7.62" length="short"/>
+<pin name="D4" x="0" y="-10.16" length="short"/>
+<pin name="D5" x="0" y="-12.7" length="short"/>
+<pin name="D6" x="0" y="-15.24" length="short"/>
+<pin name="D8" x="0" y="-22.86" length="short"/>
+<pin name="D9" x="0" y="-25.4" length="short"/>
+<pin name="D10" x="0" y="-27.94" length="short"/>
+<pin name="D11_SPI_MOSI" x="0" y="-30.48" length="short"/>
+<pin name="+5V" x="38.1" y="-25.4" length="short" direction="pas" rot="R180"/>
+<pin name="GND1" x="38.1" y="-22.86" length="short" direction="pas" rot="R180"/>
+<pin name="GND2" x="38.1" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="VIN" x="38.1" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="A0" x="38.1" y="-12.7" length="short" rot="R180"/>
+<pin name="A1" x="38.1" y="-10.16" length="short" rot="R180"/>
+<pin name="A2" x="38.1" y="-7.62" length="short" rot="R180"/>
+<pin name="A3" x="38.1" y="-5.08" length="short" rot="R180"/>
+<pin name="D7" x="0" y="-17.78" length="short"/>
+<pin name="NC" x="38.1" y="-35.56" length="short" direction="nc" rot="R180"/>
+<pin name="IOREF" x="38.1" y="-33.02" length="short" rot="R180"/>
+<pin name="NRST" x="38.1" y="-30.48" length="short" rot="R180"/>
+<pin name="+3V3" x="38.1" y="-27.94" length="short" direction="pas" rot="R180"/>
+<pin name="D13_SPI_SCLK" x="0" y="-35.56" length="short"/>
+<pin name="D12_SPI_MISO" x="0" y="-33.02" length="short"/>
+<pin name="GND0" x="0" y="-38.1" length="short" direction="pas"/>
+<pin name="AVDD" x="0" y="-40.64" length="short" direction="pas"/>
+<pin name="D14_I2C_SDA" x="0" y="-43.18" length="short" direction="pas"/>
+<pin name="D15_I2C_SCL" x="0" y="-45.72" length="short" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RS_232C_IF" prefix="CN">
@@ -2528,6 +2666,53 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="RX" pad="2"/>
 <connect gate="G$1" pin="TX" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARDUINO_COMPAT_IF" prefix="CN">
+<description>&lt;b&gt;Arduino互換ピンインターフェース&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ARDUINO_COMPAT_IF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ARDUINO_COMPAT_IF">
+<connects>
+<connect gate="G$1" pin="+3V3" pad="22"/>
+<connect gate="G$1" pin="+5V" pad="23"/>
+<connect gate="G$1" pin="A0" pad="27"/>
+<connect gate="G$1" pin="A1" pad="28"/>
+<connect gate="G$1" pin="A2" pad="29"/>
+<connect gate="G$1" pin="A3" pad="30"/>
+<connect gate="G$1" pin="A4" pad="31"/>
+<connect gate="G$1" pin="A5" pad="32"/>
+<connect gate="G$1" pin="AVDD" pad="16"/>
+<connect gate="G$1" pin="D0" pad="1"/>
+<connect gate="G$1" pin="D1" pad="2"/>
+<connect gate="G$1" pin="D10" pad="11"/>
+<connect gate="G$1" pin="D11_SPI_MOSI" pad="12"/>
+<connect gate="G$1" pin="D12_SPI_MISO" pad="13"/>
+<connect gate="G$1" pin="D13_SPI_SCLK" pad="14"/>
+<connect gate="G$1" pin="D14_I2C_SDA" pad="17"/>
+<connect gate="G$1" pin="D15_I2C_SCL" pad="18"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="D3" pad="4"/>
+<connect gate="G$1" pin="D4" pad="5"/>
+<connect gate="G$1" pin="D5" pad="6"/>
+<connect gate="G$1" pin="D6" pad="7"/>
+<connect gate="G$1" pin="D7" pad="8"/>
+<connect gate="G$1" pin="D8" pad="9"/>
+<connect gate="G$1" pin="D9" pad="10"/>
+<connect gate="G$1" pin="GND0" pad="15"/>
+<connect gate="G$1" pin="GND1" pad="24"/>
+<connect gate="G$1" pin="GND2" pad="25"/>
+<connect gate="G$1" pin="IOREF" pad="20"/>
+<connect gate="G$1" pin="NC" pad="19"/>
+<connect gate="G$1" pin="NRST" pad="21"/>
+<connect gate="G$1" pin="VIN" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2588,7 +2773,7 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <part name="GND3" library="Supply" deviceset="0V" device=""/>
 <part name="R6" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="U3" library="Parts" deviceset="MIC5366" device="-1.8YC5_"/>
-<part name="U4" library="Parts" deviceset="MIC5366" device="-3.3YC5"/>
+<part name="U4" library="Parts" deviceset="MIC5366" device="-3.3YC5_"/>
 <part name="R7" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="C15" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF"/>
 <part name="C16" library="Parts" deviceset="CAP" device="_0603_DEV" value="33pF"/>
@@ -2624,9 +2809,9 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <part name="+3V2" library="Supply" deviceset="+3V3" device=""/>
 <part name="+3V3" library="Supply" deviceset="+3V3" device=""/>
 <part name="C21" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
-<part name="C22" library="Parts" deviceset="CAP" device="_0603_DEV"/>
+<part name="C22" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C23" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
-<part name="C24" library="Parts" deviceset="CAP" device="_0603_DEV"/>
+<part name="C24" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND6" library="Supply" deviceset="0V" device=""/>
 <part name="GND7" library="Supply" deviceset="0V" device=""/>
 <part name="GND16" library="Supply" deviceset="0V" device=""/>
@@ -2652,6 +2837,13 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <part name="CN2" library="PartsForProto" deviceset="UART_IF" device="" value="UART1_IF"/>
 <part name="GND22" library="Supply" deviceset="0V" device=""/>
 <part name="GND23" library="Supply" deviceset="0V" device=""/>
+<part name="GND24" library="Supply" deviceset="0V" device=""/>
+<part name="C29" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF"/>
+<part name="CN3" library="PartsForProto" deviceset="ARDUINO_COMPAT_IF" device=""/>
+<part name="P+5" library="Supply" deviceset="+5V" device=""/>
+<part name="GND25" library="Supply" deviceset="0V" device=""/>
+<part name="GND26" library="Supply" deviceset="0V" device=""/>
+<part name="R14" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="33"/>
 </parts>
 <sheets>
 <sheet>
@@ -2768,13 +2960,6 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <pinref part="U1" gate="G$1" pin="C107/DSR"/>
 <wire x1="55.88" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 <label x="40.64" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RING" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="C125/RING"/>
-<wire x1="55.88" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<label x="40.64" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VAUX" class="0">
@@ -3051,6 +3236,10 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <text x="20.32" y="91.44" size="2.54" layer="150">ノイズフィルター回路</text>
 <text x="142.24" y="68.58" size="2.54" layer="150">基準電圧用降圧回路（3.3V）</text>
 <text x="27.94" y="162.56" size="2.54" layer="150">降圧回路（最大5V---&gt;3.8V）</text>
+<text x="195.58" y="132.08" size="1.778" layer="150" align="top-left">パスコンは以下を選定
+1uF=X5R</text>
+<text x="134.62" y="154.94" size="1.778" layer="150" align="top-left">パスコンは以下を選定
+1uF=X5R</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -3097,6 +3286,8 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <instance part="C20" gate="G$1" x="160.02" y="60.96"/>
 <instance part="R9" gate="G$1" x="172.72" y="45.72"/>
 <instance part="R10" gate="G$1" x="172.72" y="38.1"/>
+<instance part="GND24" gate="1" x="223.52" y="129.54"/>
+<instance part="C29" gate="G$1" x="210.82" y="137.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3272,6 +3463,12 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <wire x1="172.72" y1="53.34" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
 <junction x="172.72" y="50.8"/>
 </segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="GND24" gate="1" pin="0V"/>
+<wire x1="218.44" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="137.16" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VBATT_3V8" class="0">
 <segment>
@@ -3446,6 +3643,13 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <wire x1="187.96" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="VRTC" class="0">
+<segment>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="198.12" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3461,6 +3665,10 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <text x="172.72" y="109.22" size="2.54" layer="150" align="top-left">アンテナコネクター
 （U.FL規格を使用）</text>
 <text x="160.02" y="68.58" size="2.54" layer="150" align="top-left">UARTインターフェース用コネクター</text>
+<text x="101.6" y="119.38" size="1.778" layer="150" align="top-left">パスコンは以下を選定
+0.1uF=X7R</text>
+<text x="101.6" y="38.1" size="1.778" layer="150" align="top-left">パスコンは以下を選定
+0.1uF=X7R</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -3768,6 +3976,26 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <wire x1="50.8" y1="114.3" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
 <junction x="50.8" y="111.76"/>
 </segment>
+<segment>
+<wire x1="53.34" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="147.32" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="149.86" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<junction x="45.72" y="149.86"/>
+<wire x1="50.8" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<junction x="45.72" y="147.32"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="VCCA"/>
+<pinref part="U5" gate="G$1" pin="1DIR"/>
+<pinref part="U5" gate="G$1" pin="2DIR"/>
+<pinref part="SUPPLY2" gate="G$1" pin="+1V8"/>
+<wire x1="50.8" y1="154.94" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<junction x="50.8" y="149.86"/>
+</segment>
 </net>
 <net name="C106/CTS" class="0">
 <segment>
@@ -4008,24 +4236,6 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <label x="198.12" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="53.34" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="144.78" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="147.32" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="149.86" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<junction x="45.72" y="149.86"/>
-<wire x1="53.34" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<junction x="45.72" y="147.32"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="157.48" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="VCCA"/>
-<pinref part="U5" gate="G$1" pin="1DIR"/>
-<pinref part="U5" gate="G$1" pin="2DIR"/>
-</segment>
-</net>
 <net name="TX_AUX" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A"/>
@@ -4055,6 +4265,7 @@ LOWを5秒以上
 
 VAUXがHIGHで
 LEDが点灯</text>
+<text x="167.64" y="132.08" size="2.54" layer="150">Arduino互換ピンインターフェース</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -4072,6 +4283,11 @@ LEDが点灯</text>
 <instance part="D3" gate="G$1" x="121.92" y="119.38"/>
 <instance part="P+3" gate="G$1" x="68.58" y="147.32"/>
 <instance part="P+4" gate="G$1" x="121.92" y="147.32"/>
+<instance part="CN3" gate="G$1" x="175.26" y="121.92"/>
+<instance part="P+5" gate="1" x="223.52" y="127"/>
+<instance part="GND25" gate="1" x="223.52" y="73.66"/>
+<instance part="GND26" gate="1" x="165.1" y="73.66"/>
+<instance part="R14" gate="G$1" x="190.5" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -4140,6 +4356,22 @@ LEDが点灯</text>
 <pinref part="GND5" gate="1" pin="0V"/>
 <wire x1="68.58" y1="96.52" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="CN3" gate="G$1" pin="GND2"/>
+<pinref part="GND25" gate="1" pin="0V"/>
+<wire x1="213.36" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="101.6" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="G$1" pin="GND1"/>
+<wire x1="223.52" y1="99.06" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="223.52" y="99.06"/>
+</segment>
+<segment>
+<pinref part="CN3" gate="G$1" pin="GND0"/>
+<pinref part="GND26" gate="1" pin="0V"/>
+<wire x1="175.26" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GPIO_01" class="0">
 <segment>
@@ -4186,6 +4418,49 @@ LEDが点灯</text>
 <pinref part="P+4" gate="G$1" pin="+3V8"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="144.78" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="CN3" gate="G$1" pin="VIN"/>
+<wire x1="223.52" y1="104.14" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RXD_IF" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="D0"/>
+<wire x1="175.26" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="162.56" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TXD_IF" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="D1"/>
+<wire x1="175.26" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+<label x="162.56" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DTR_IF" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="D2"/>
+<wire x1="175.26" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
+<label x="162.56" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CTS_IF" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="180.34" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RTS_IF" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<label x="203.2" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
