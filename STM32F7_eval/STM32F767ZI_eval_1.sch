@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5535,11 +5535,6 @@ LDOのVOUT近傍に設置</text>
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="NRST"/>
-<wire x1="129.54" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
-<label x="121.92" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="232.41" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="35.56" x2="226.06" y2="43.18" width="0.1524" layer="91"/>
@@ -5552,6 +5547,11 @@ LDOのVOUT近傍に設置</text>
 <wire x1="226.06" y1="45.72" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
 <junction x="226.06" y="45.72"/>
 <label x="215.9" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="NRST"/>
+<wire x1="129.54" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<label x="121.92" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC0" class="0">
@@ -6002,6 +6002,13 @@ LDOのVOUT近傍に設置</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="142.24" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
 <label x="22.86" y="144.78" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="PE15" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE15"/>
+<wire x1="226.06" y1="93.98" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
+<label x="226.06" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
@@ -6516,13 +6523,6 @@ EPDのサイズに応じて下記を選択のこと。
 <junction x="43.18" y="114.3"/>
 </segment>
 </net>
-<net name="NRST" class="0">
-<segment>
-<pinref part="U5" gate="G$1" pin="!RESET!"/>
-<wire x1="76.2" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<label x="63.5" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PB10" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -6848,6 +6848,13 @@ EPDのサイズに応じて下記を選択のこと。
 <label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="PE15" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="!RESET!"/>
+<wire x1="76.2" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<label x="63.5" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6857,8 +6864,7 @@ EPDのサイズに応じて下記を選択のこと。
 VCCピンの近傍に設置</text>
 <text x="200.66" y="76.2" size="1.778" layer="91" align="top-left">!CS!に LOW を出力時は
 フラッシュが使用可能</text>
-<text x="200.66" y="83.82" size="1.778" layer="91" align="top-left">!RESET!は
-STM32のNRSTに接続</text>
+<text x="96.52" y="76.2" size="1.778" layer="91" align="top-left">!RESET!はHIGH固定</text>
 <text x="195.58" y="60.96" size="1.778" layer="91" align="top-left">!OE!に LOW を出力時は
 FXMA108のバスが
 使用可能になる</text>
@@ -6959,18 +6965,6 @@ C3216X7R1C105K </text>
 <wire x1="213.36" y1="93.98" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!RESET!" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="B0"/>
-<wire x1="185.42" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
-<label x="187.96" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="!RESET!/SIO3"/>
-<wire x1="106.68" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<label x="96.52" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="!CS!" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="B1"/>
@@ -7017,13 +7011,6 @@ C3216X7R1C105K </text>
 <pinref part="U6" gate="G$1" pin="SCLK"/>
 <wire x1="106.68" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="96.52" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="NRST" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="A0"/>
-<wire x1="157.48" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="142.24" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_MEM" class="0">
@@ -7090,14 +7077,18 @@ C3216X7R1C105K </text>
 <wire x1="93.98" y1="76.2" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="86.36" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <junction x="93.98" y="76.2"/>
 <pinref part="SUPPLY1" gate="G$1" pin="+1V8"/>
 <pinref part="U6" gate="G$1" pin="!WP!/SIO2"/>
+<wire x1="93.98" y1="73.66" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <junction x="93.98" y="86.36"/>
+<pinref part="U6" gate="G$1" pin="!RESET!/SIO3"/>
+<wire x1="88.9" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<junction x="93.98" y="73.66"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VOUT"/>
