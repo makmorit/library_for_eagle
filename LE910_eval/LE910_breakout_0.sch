@@ -452,49 +452,52 @@
 <rectangle x1="-11.25" y1="1.35" x2="-10.35" y2="2.25" layer="29"/>
 <rectangle x1="-13.05" y1="1.35" x2="-12.15" y2="2.25" layer="29"/>
 </package>
-<package name="LE910_V2_BREAKOUT_CASEDGES">
-<description>&lt;b&gt;LE910ブレークアウト基板用半穴&lt;/b&gt;&lt;p&gt;
-基板外形データ (dimension) つき</description>
-<pad name="1" x="0" y="26.67" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="24.13" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="3" x="0" y="21.59" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="4" x="0" y="19.05" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="5" x="0" y="16.51" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="6" x="0" y="13.97" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="7" x="0" y="11.43" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="8" x="0" y="8.89" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="9" x="8.89" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="10" x="11.43" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="11" x="13.97" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="12" x="16.51" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="13" x="19.05" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="14" x="21.59" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="15" x="24.13" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="16" x="26.67" y="0" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="17" x="35.56" y="8.89" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="18" x="35.56" y="11.43" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="19" x="35.56" y="13.97" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="20" x="35.56" y="16.51" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="21" x="35.56" y="19.05" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="22" x="35.56" y="21.59" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="23" x="35.56" y="24.13" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="24" x="35.56" y="26.67" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="25" x="26.67" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="26" x="24.13" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="27" x="21.59" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="28" x="19.05" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="29" x="16.51" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="30" x="13.97" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="31" x="11.43" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<pad name="32" x="8.89" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
-<text x="1.27" y="27.94" size="1.016" layer="21" align="bottom-center">1</text>
-<text x="1.27" y="7.62" size="1.016" layer="21" align="top-center">8</text>
-<text x="7.62" y="1.27" size="1.016" layer="21" align="center-right">9</text>
-<text x="27.94" y="1.27" size="1.016" layer="21" align="center-left">16</text>
-<text x="34.29" y="7.62" size="1.016" layer="21" align="top-center">17</text>
-<text x="27.94" y="34.29" size="1.016" layer="21" align="center-left">25</text>
-<text x="34.29" y="27.94" size="1.016" layer="21" align="bottom-center">24</text>
-<text x="7.62" y="34.29" size="1.016" layer="21" align="center-right">32</text>
+<package name="LE910_V2_BREAKOUT_CASEDG">
+<description>&lt;b&gt;LE910ブレークアウト基板用半穴&lt;/b&gt;&lt;p&gt;</description>
+<pad name="1" x="0" y="27.94" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="2" x="0" y="25.4" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="3" x="0" y="22.86" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="4" x="0" y="20.32" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="5" x="0" y="17.78" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="6" x="0" y="15.24" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="7" x="0" y="12.7" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="8" x="0" y="10.16" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="9" x="0" y="7.62" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="10" x="7.62" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="11" x="10.16" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="12" x="12.7" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="13" x="15.24" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="14" x="17.78" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="15" x="20.32" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="16" x="22.86" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="17" x="25.4" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="18" x="27.94" y="0" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="19" x="35.56" y="7.62" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="20" x="35.56" y="10.16" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="21" x="35.56" y="12.7" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="22" x="35.56" y="15.24" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="23" x="35.56" y="17.78" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="24" x="35.56" y="20.32" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="25" x="35.56" y="22.86" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="26" x="35.56" y="25.4" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="27" x="35.56" y="27.94" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="28" x="27.94" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="29" x="25.4" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="30" x="22.86" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="31" x="20.32" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="32" x="17.78" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<text x="1.27" y="29.21" size="1.016" layer="21" align="bottom-center">1</text>
+<text x="1.27" y="6.35" size="1.016" layer="21" align="top-center">9</text>
+<text x="6.35" y="1.27" size="1.016" layer="21" align="center-right">10</text>
+<text x="29.21" y="1.27" size="1.016" layer="21" align="center-left">18</text>
+<text x="34.29" y="6.35" size="1.016" layer="21" align="top-center">19</text>
+<text x="29.21" y="34.29" size="1.016" layer="21" align="center-left">28</text>
+<text x="34.29" y="29.21" size="1.016" layer="21" align="bottom-center">27</text>
+<text x="6.35" y="34.29" size="1.016" layer="21" align="center-right">36</text>
+<pad name="33" x="15.24" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="34" x="12.7" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="35" x="10.16" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
+<pad name="36" x="7.62" y="35.56" drill="0.8128" diameter="1.27" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -648,45 +651,49 @@
 <pin name="RESERVED59" x="142.24" y="-76.2" length="middle" direction="nc"/>
 </symbol>
 <symbol name="LE910_V2_BREAKOUT">
-<description>&lt;b&gt;32ピンブレークアウト基板&lt;/b&gt;</description>
-<wire x1="5.08" y1="-35.56" x2="58.42" y2="-35.56" width="0.4064" layer="94"/>
-<wire x1="58.42" y1="-35.56" x2="58.42" y2="17.78" width="0.4064" layer="94"/>
-<wire x1="58.42" y1="17.78" x2="5.08" y2="17.78" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="-35.56" width="0.4064" layer="94"/>
-<text x="30.48" y="-11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="30.48" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GPIO_01" x="0" y="0" length="middle"/>
+<description>&lt;b&gt;36ピンブレークアウト基板&lt;/b&gt;</description>
+<wire x1="5.08" y1="-35.56" x2="55.88" y2="-35.56" width="0.4064" layer="94"/>
+<wire x1="55.88" y1="-35.56" x2="55.88" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="55.88" y1="15.24" x2="5.08" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-35.56" width="0.4064" layer="94"/>
+<text x="58.42" y="-29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="58.42" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GPIO_01" x="20.32" y="20.32" length="middle" rot="R270"/>
 <pin name="SIMVCC" x="0" y="-2.54" length="middle" direction="pas"/>
 <pin name="SIMIN" x="0" y="-5.08" length="middle"/>
 <pin name="SIMIO" x="0" y="-7.62" length="middle"/>
 <pin name="SIMCLK" x="0" y="-10.16" length="middle"/>
 <pin name="SIMRST" x="0" y="-12.7" length="middle"/>
-<pin name="RX_AUX" x="0" y="-15.24" length="middle"/>
-<pin name="TX_AUX" x="0" y="-17.78" length="middle"/>
-<pin name="VRTC" x="22.86" y="-40.64" length="middle" direction="pas" rot="R90"/>
-<pin name="GND_1" x="25.4" y="-40.64" length="middle" direction="pas" rot="R90"/>
-<pin name="DCD" x="27.94" y="-40.64" length="middle" rot="R90"/>
-<pin name="RXD" x="30.48" y="-40.64" length="middle" rot="R90"/>
-<pin name="DTR" x="35.56" y="-40.64" length="middle" rot="R90"/>
-<pin name="GND_2" x="38.1" y="-40.64" length="middle" direction="pas" rot="R90"/>
-<pin name="DSR" x="40.64" y="-40.64" length="middle" rot="R90"/>
-<pin name="TXD" x="33.02" y="-40.64" length="middle" rot="R90"/>
-<pin name="RTS" x="63.5" y="-17.78" length="middle" rot="R180"/>
-<pin name="CTS" x="63.5" y="-15.24" length="middle" rot="R180"/>
-<pin name="HW_SHUT" x="63.5" y="-12.7" length="middle" rot="R180"/>
-<pin name="ON_OFF" x="63.5" y="-10.16" length="middle" rot="R180"/>
-<pin name="VAUX" x="63.5" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="GND_3" x="63.5" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="VBATT" x="63.5" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="VBATT_PA" x="63.5" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="GND_6" x="33.02" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="GND_4" x="40.64" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="GND_5" x="38.1" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="GND_7" x="30.48" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="ANTENNA" x="35.56" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="GND_8" x="25.4" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="ANT_DIV" x="27.94" y="22.86" length="middle" direction="pas" rot="R270"/>
-<pin name="GND_9" x="22.86" y="22.86" length="middle" direction="pas" rot="R270"/>
+<pin name="RX_AUX" x="27.94" y="-40.64" length="middle" rot="R90"/>
+<pin name="TX_AUX" x="25.4" y="-40.64" length="middle" rot="R90"/>
+<pin name="VRTC" x="0" y="-17.78" length="middle" direction="pas"/>
+<pin name="GND_1" x="0" y="-15.24" length="middle" direction="pas"/>
+<pin name="DCD" x="30.48" y="-40.64" length="middle" rot="R90"/>
+<pin name="RXD" x="33.02" y="-40.64" length="middle" rot="R90"/>
+<pin name="DTR" x="38.1" y="-40.64" length="middle" rot="R90"/>
+<pin name="GND_2" x="40.64" y="-40.64" length="middle" direction="pas" rot="R90"/>
+<pin name="DSR" x="60.96" y="-20.32" length="middle" rot="R180"/>
+<pin name="TXD" x="35.56" y="-40.64" length="middle" rot="R90"/>
+<pin name="RTS" x="60.96" y="-17.78" length="middle" rot="R180"/>
+<pin name="CTS" x="60.96" y="-15.24" length="middle" rot="R180"/>
+<pin name="HW_SHUT" x="60.96" y="-12.7" length="middle" rot="R180"/>
+<pin name="ON_OFF" x="60.96" y="-10.16" length="middle" rot="R180"/>
+<pin name="VAUX" x="60.96" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="GND_3" x="60.96" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="VBATT" x="60.96" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="VBATT_PA" x="60.96" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND_6" x="33.02" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_4" x="40.64" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_5" x="38.1" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_7" x="30.48" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="ANTENNA" x="35.56" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_8" x="27.94" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="ANT_DIV" x="25.4" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_9" x="22.86" y="20.32" length="middle" direction="pas" rot="R270"/>
+<pin name="GND_0" x="0" y="0" length="middle" direction="pas"/>
+<pin name="VUSB" x="0" y="-20.32" length="middle" direction="pas"/>
+<pin name="USB_D-" x="22.86" y="-40.64" length="middle" rot="R90"/>
+<pin name="USB_D+" x="20.32" y="-40.64" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -856,40 +863,44 @@
 <gate name="G$1" symbol="LE910_V2_BREAKOUT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CASEDGES" package="LE910_V2_BREAKOUT_CASEDGES">
+<device name="_CASEDG" package="LE910_V2_BREAKOUT_CASEDG">
 <connects>
-<connect gate="G$1" pin="ANTENNA" pad="27"/>
-<connect gate="G$1" pin="ANT_DIV" pad="30"/>
-<connect gate="G$1" pin="CTS" pad="18"/>
-<connect gate="G$1" pin="DCD" pad="11"/>
-<connect gate="G$1" pin="DSR" pad="16"/>
-<connect gate="G$1" pin="DTR" pad="14"/>
-<connect gate="G$1" pin="GND_1" pad="10"/>
-<connect gate="G$1" pin="GND_2" pad="15"/>
-<connect gate="G$1" pin="GND_3" pad="22"/>
-<connect gate="G$1" pin="GND_4" pad="25"/>
-<connect gate="G$1" pin="GND_5" pad="26"/>
-<connect gate="G$1" pin="GND_6" pad="28"/>
-<connect gate="G$1" pin="GND_7" pad="29"/>
-<connect gate="G$1" pin="GND_8" pad="31"/>
-<connect gate="G$1" pin="GND_9" pad="32"/>
-<connect gate="G$1" pin="GPIO_01" pad="1"/>
-<connect gate="G$1" pin="HW_SHUT" pad="19"/>
-<connect gate="G$1" pin="ON_OFF" pad="20"/>
-<connect gate="G$1" pin="RTS" pad="17"/>
-<connect gate="G$1" pin="RXD" pad="12"/>
-<connect gate="G$1" pin="RX_AUX" pad="7"/>
+<connect gate="G$1" pin="ANTENNA" pad="30"/>
+<connect gate="G$1" pin="ANT_DIV" pad="34"/>
+<connect gate="G$1" pin="CTS" pad="21"/>
+<connect gate="G$1" pin="DCD" pad="14"/>
+<connect gate="G$1" pin="DSR" pad="19"/>
+<connect gate="G$1" pin="DTR" pad="17"/>
+<connect gate="G$1" pin="GND_0" pad="1"/>
+<connect gate="G$1" pin="GND_1" pad="7"/>
+<connect gate="G$1" pin="GND_2" pad="18"/>
+<connect gate="G$1" pin="GND_3" pad="25"/>
+<connect gate="G$1" pin="GND_4" pad="28"/>
+<connect gate="G$1" pin="GND_5" pad="29"/>
+<connect gate="G$1" pin="GND_6" pad="31"/>
+<connect gate="G$1" pin="GND_7" pad="32"/>
+<connect gate="G$1" pin="GND_8" pad="33"/>
+<connect gate="G$1" pin="GND_9" pad="35"/>
+<connect gate="G$1" pin="GPIO_01" pad="36"/>
+<connect gate="G$1" pin="HW_SHUT" pad="22"/>
+<connect gate="G$1" pin="ON_OFF" pad="23"/>
+<connect gate="G$1" pin="RTS" pad="20"/>
+<connect gate="G$1" pin="RXD" pad="15"/>
+<connect gate="G$1" pin="RX_AUX" pad="13"/>
 <connect gate="G$1" pin="SIMCLK" pad="5"/>
 <connect gate="G$1" pin="SIMIN" pad="3"/>
 <connect gate="G$1" pin="SIMIO" pad="4"/>
 <connect gate="G$1" pin="SIMRST" pad="6"/>
 <connect gate="G$1" pin="SIMVCC" pad="2"/>
-<connect gate="G$1" pin="TXD" pad="13"/>
-<connect gate="G$1" pin="TX_AUX" pad="8"/>
-<connect gate="G$1" pin="VAUX" pad="21"/>
-<connect gate="G$1" pin="VBATT" pad="23"/>
-<connect gate="G$1" pin="VBATT_PA" pad="24"/>
-<connect gate="G$1" pin="VRTC" pad="9"/>
+<connect gate="G$1" pin="TXD" pad="16"/>
+<connect gate="G$1" pin="TX_AUX" pad="12"/>
+<connect gate="G$1" pin="USB_D+" pad="10"/>
+<connect gate="G$1" pin="USB_D-" pad="11"/>
+<connect gate="G$1" pin="VAUX" pad="24"/>
+<connect gate="G$1" pin="VBATT" pad="26"/>
+<connect gate="G$1" pin="VBATT_PA" pad="27"/>
+<connect gate="G$1" pin="VRTC" pad="8"/>
+<connect gate="G$1" pin="VUSB" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -983,7 +994,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U1" library="Modules" deviceset="LE910_V2" device=""/>
 <part name="FRAME1" library="Generic" deviceset="A4L-LOC" device=""/>
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
-<part name="M1" library="Modules" deviceset="LE910_V2_BREAKOUT" device="_CASEDGES"/>
+<part name="M1" library="Modules" deviceset="LE910_V2_BREAKOUT" device="_CASEDG"/>
 </parts>
 <sheets>
 <sheet>
@@ -1009,10 +1020,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U1" gate="G$1" x="83.82" y="162.56"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="GND4" gate="1" x="167.64" y="60.96"/>
-<instance part="M1" gate="G$1" x="22.86" y="60.96" smashed="yes">
-<attribute name="NAME" x="83.82" y="29.21" size="1.778" layer="95"/>
-<attribute name="VALUE" x="83.82" y="25.4" size="1.778" layer="96"/>
-</instance>
+<instance part="M1" gate="G$1" x="22.86" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -1036,8 +1044,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VBATT_PA"/>
-<wire x1="86.36" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<label x="88.9" y="60.96" size="1.778" layer="95"/>
+<wire x1="83.82" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<label x="86.36" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -1051,8 +1059,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VBATT"/>
-<wire x1="86.36" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
-<label x="88.9" y="58.42" size="1.778" layer="95"/>
+<wire x1="83.82" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<label x="86.36" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ANTENNA" class="0">
@@ -1075,8 +1083,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="ANT_DIV"/>
-<wire x1="50.8" y1="83.82" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
-<label x="50.8" y="86.36" size="1.778" layer="95" rot="R90"/>
+<wire x1="48.26" y1="83.82" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
+<label x="48.26" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="C104/RXD" class="0">
@@ -1087,8 +1095,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="RXD"/>
-<wire x1="53.34" y1="20.32" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
-<label x="53.34" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<label x="55.88" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="C108/DTR" class="0">
@@ -1099,8 +1107,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="DTR"/>
-<wire x1="58.42" y1="20.32" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
-<label x="58.42" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+<label x="60.96" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="C105/RTS" class="0">
@@ -1111,8 +1119,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="RTS"/>
-<wire x1="86.36" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="43.18" size="1.778" layer="95"/>
+<wire x1="83.82" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
+<label x="86.36" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C106/CTS" class="0">
@@ -1123,8 +1131,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="CTS"/>
-<wire x1="86.36" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<label x="88.9" y="45.72" size="1.778" layer="95"/>
+<wire x1="83.82" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<label x="86.36" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C109/DCD" class="0">
@@ -1135,8 +1143,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="DCD"/>
-<wire x1="50.8" y1="20.32" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
-<label x="50.8" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="53.34" y1="22.86" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<label x="53.34" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="C107/DSR" class="0">
@@ -1147,8 +1155,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="DSR"/>
-<wire x1="63.5" y1="20.32" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<label x="63.5" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="83.82" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VAUX" class="0">
@@ -1159,8 +1167,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VAUX"/>
-<wire x1="86.36" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<label x="88.9" y="53.34" size="1.778" layer="95"/>
+<wire x1="83.82" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="86.36" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX_AUX" class="0">
@@ -1171,8 +1179,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="TX_AUX"/>
-<wire x1="22.86" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<label x="10.16" y="43.18" size="1.778" layer="95"/>
+<wire x1="48.26" y1="22.86" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
+<label x="10.16" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX_AUX" class="0">
@@ -1183,8 +1191,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="RX_AUX"/>
-<wire x1="22.86" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="10.16" y="45.72" size="1.778" layer="95"/>
+<wire x1="50.8" y1="22.86" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<label x="10.16" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIMCLK" class="0">
@@ -1195,8 +1203,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="SIMCLK"/>
-<wire x1="22.86" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="22.86" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIMRST" class="0">
@@ -1207,8 +1215,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="SIMRST"/>
-<wire x1="22.86" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
+<wire x1="22.86" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIMIO" class="0">
@@ -1219,8 +1227,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="SIMIO"/>
-<wire x1="22.86" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
-<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="22.86" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIMIN" class="0">
@@ -1231,8 +1239,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="SIMIN"/>
-<wire x1="22.86" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="22.86" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIMVCC" class="0">
@@ -1243,8 +1251,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="SIMVCC"/>
-<wire x1="22.86" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="22.86" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HW_SHUT" class="0">
@@ -1255,8 +1263,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="HW_SHUT"/>
-<wire x1="86.36" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<label x="88.9" y="48.26" size="1.778" layer="95"/>
+<wire x1="83.82" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="86.36" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ON_OFF" class="0">
@@ -1267,8 +1275,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="ON_OFF"/>
-<wire x1="86.36" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="88.9" y="50.8" size="1.778" layer="95"/>
+<wire x1="83.82" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="86.36" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VRTC" class="0">
@@ -1279,8 +1287,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VRTC"/>
-<wire x1="45.72" y1="20.32" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
-<label x="45.72" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="22.86" y1="45.72" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+<label x="48.26" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GPIO_01" class="0">
@@ -1291,8 +1299,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GPIO_01"/>
-<wire x1="22.86" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="43.18" y1="83.82" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<label x="43.18" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="0V" class="0">
@@ -1452,18 +1460,18 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_2"/>
-<wire x1="60.96" y1="20.32" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
-<label x="60.96" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="63.5" y1="22.86" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
+<label x="63.5" y="10.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="GND_0"/>
+<wire x1="22.86" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<label x="10.16" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_1"/>
-<wire x1="48.26" y1="20.32" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
-<label x="48.26" y="7.62" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="M1" gate="G$1" pin="GND_3"/>
-<wire x1="86.36" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<label x="88.9" y="55.88" size="1.778" layer="95"/>
+<wire x1="22.86" y1="48.26" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<label x="50.8" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_9"/>
@@ -1472,8 +1480,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_8"/>
-<wire x1="48.26" y1="83.82" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<label x="48.26" y="86.36" size="1.778" layer="95" rot="R90"/>
+<wire x1="50.8" y1="83.82" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="50.8" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_7"/>
@@ -1495,6 +1503,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="63.5" y1="83.82" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
 <label x="63.5" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="GND_3"/>
+<wire x1="83.82" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="86.36" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C103/TXD" class="0">
 <segment>
@@ -1504,8 +1517,44 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="TXD"/>
-<wire x1="55.88" y1="20.32" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<label x="55.88" y="7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<label x="58.42" y="10.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="USB_D+" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="USB_D+"/>
+<wire x1="83.82" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="68.58" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="USB_D+"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
+<label x="43.18" y="10.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="USB_D-" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="USB_D-"/>
+<wire x1="83.82" y1="160.02" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
+<label x="68.58" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="USB_D-"/>
+<wire x1="45.72" y1="22.86" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
+<label x="45.72" y="10.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="VUSB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VUSB"/>
+<wire x1="83.82" y1="157.48" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
+<label x="68.58" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="VUSB"/>
+<wire x1="22.86" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="10.16" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
