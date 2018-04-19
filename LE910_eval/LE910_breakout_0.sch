@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1179,8 +1179,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="TX_AUX"/>
-<wire x1="48.26" y1="22.86" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="10.16" y="45.72" size="1.778" layer="95"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+<label x="48.26" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RX_AUX" class="0">
@@ -1191,8 +1191,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="RX_AUX"/>
-<wire x1="50.8" y1="22.86" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
+<wire x1="50.8" y1="22.86" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<label x="50.8" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SIMCLK" class="0">
@@ -1287,8 +1287,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VRTC"/>
-<wire x1="22.86" y1="45.72" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
-<label x="48.26" y="10.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="22.86" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
+<label x="10.16" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_01" class="0">
@@ -1470,8 +1470,8 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_1"/>
-<wire x1="22.86" y1="48.26" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<label x="50.8" y="10.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="22.86" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<label x="10.16" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND_9"/>
