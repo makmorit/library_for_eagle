@@ -7250,7 +7250,7 @@ Pd - 電力損失: 200 mW &lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-3.3YC5" package="SC-70-5_DEV">
+<device name="-3.3YC5_" package="SC-70-5_DEV">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -7264,7 +7264,7 @@ Pd - 電力損失: 200 mW &lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AVC4T245">
+<deviceset name="SN74AVC4T245" prefix="U">
 <description>&lt;b&gt;4-Bit 電圧レベル変換器&lt;/b&gt;&lt;p&gt;
 伝搬遅延時間: 2.9 ns &lt;br&gt;
 供給電圧 - 最大: 3.6 V &lt;br&gt;
