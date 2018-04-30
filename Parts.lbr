@@ -3833,6 +3833,58 @@ PW (R-PDSO-G16)&lt;br&gt;
 <rectangle x1="1" y1="-0.775" x2="1.55" y2="0.775" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="SOT23-5L_DEV">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.7" dx="0.55" dy="2" layer="1"/>
+<smd name="2" x="0" y="-1.7" dx="0.55" dy="2" layer="1"/>
+<smd name="3" x="0.95" y="-1.7" dx="0.55" dy="2" layer="1"/>
+<smd name="4" x="0.95" y="1.7" dx="0.55" dy="2" layer="1"/>
+<smd name="5" x="-0.95" y="1.7" dx="0.55" dy="2" layer="1"/>
+<text x="1.695" y="-0.795" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.695" y="-2.029" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+<package name="SOT23-6L_DEV">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; &lt;p&gt;
+SOT23-6L</description>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.55" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="0" y="-1.55" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="0.95" y="-1.55" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="0.95" y="1.55" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="0" y="1.55" dx="0.6" dy="2" layer="1"/>
+<text x="1.695" y="-0.795" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.695" y="-1.929" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.4" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.4" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.4" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.4" layer="51"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.4" layer="51"/>
+<smd name="6" x="-0.95" y="1.55" dx="0.6" dy="2" layer="1"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.4" layer="51"/>
+<circle x="-1.8688" y="-1.2192" radius="0.254" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NJM2360">
@@ -5105,6 +5157,36 @@ Load Switches 2.5A Active-High  SOT25</description>
 <text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="MCP1501">
+<description>&lt;b&gt;High-Precision Buffered Voltage Reference&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="2.54" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="OUT" x="0" y="0" length="short" direction="pas"/>
+<pin name="GND1" x="0" y="-5.08" length="short" direction="pas"/>
+<pin name="GND" x="0" y="-2.54" length="short" direction="pas"/>
+<pin name="VDD" x="25.4" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="!SHDN!" x="25.4" y="-5.08" length="short" rot="R180"/>
+<pin name="GND2" x="25.4" y="-2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="MCP3221">
+<description>&lt;b&gt;Low-Power 12-Bit A/D Converter&lt;/b&gt;&lt;p&gt;
+ with I2C Interface</description>
+<wire x1="2.54" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="0" y="0" length="short" direction="pas"/>
+<pin name="AIN" x="0" y="-5.08" length="short"/>
+<pin name="VSS" x="0" y="-2.54" length="short" direction="pas"/>
+<pin name="SCL" x="22.86" y="0" length="short" rot="R180"/>
+<pin name="SDA" x="22.86" y="-5.08" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7432,6 +7514,60 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP3221" prefix="U">
+<description>&lt;b&gt;ADコンバーター&lt;/b&gt;&lt;p&gt;
+ビット数：12	&lt;br&gt;
+サンプリングレート（毎秒）：22.3k&lt;br&gt;
+データインターフェース：I²C&lt;br&gt;
+電圧 - 供給、アナログ：2.7 V～5.5 V	&lt;br&gt;
+電圧 - 供給、デジタル：2.7 V～5.5 V&lt;br&gt;
+動作温度：-40°C～85°C</description>
+<gates>
+<gate name="G$1" symbol="MCP3221" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A5T-I/OT_" package="SOT23-5L_DEV">
+<connects>
+<connect gate="G$1" pin="AIN" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1501" prefix="U">
+<description>&lt;b&gt;基準電圧IC&lt;/b&gt;&lt;p&gt;
+電圧 - 出力（最小/固定）：3V&lt;br&gt;
+電流 - 出力：20mA&lt;br&gt;
+許容誤差：±0.1%&lt;br&gt;
+温度係数：50ppm/°C&lt;br&gt;
+電圧 - 入力：3.2 V～5.5 V	&lt;br&gt;
+電流 - 供給：550µA&lt;br&gt;
+動作温度：-40°C～125°C（TA）</description>
+<gates>
+<gate name="G$1" symbol="MCP1501" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T-30E/CHY_" package="SOT23-6L_DEV">
+<connects>
+<connect gate="G$1" pin="!SHDN!" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="3"/>
+<connect gate="G$1" pin="GND2" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
