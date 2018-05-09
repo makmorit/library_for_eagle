@@ -4848,8 +4848,8 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="FRAME5" library="Generic" deviceset="A4L-LOC" device=""/>
 <part name="C47" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C48" library="Parts" deviceset="CAP" device="_0805_DEV" value="10uF"/>
-<part name="R27" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="3.3k"/>
-<part name="R28" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="3.3k"/>
+<part name="R27" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="2.2k"/>
+<part name="R28" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="2.2k"/>
 <part name="U9" library="Parts" deviceset="STSAFE" device=""/>
 <part name="GND22" library="Supply" deviceset="0V" device=""/>
 <part name="R29" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
@@ -6947,7 +6947,7 @@ FXMA108のバスが
 <plain>
 <text x="167.64" y="12.7" size="2.54" layer="91">オプションデバイス配線図</text>
 <text x="109.22" y="119.38" size="2.54" layer="91">セキュリティーチップ回路図</text>
-<text x="149.86" y="88.9" size="1.778" layer="91" align="top-left">I2C_2 を使用
+<text x="157.48" y="88.9" size="1.778" layer="91" align="top-left">I2C_2 を使用
 ・PB10 = I2C_SCL 
 ・PB11 = I2C_SDA 
 </text>
@@ -6956,11 +6956,11 @@ FXMA108のバスが
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="C47" gate="G$1" x="99.06" y="93.98"/>
 <instance part="C48" gate="G$1" x="83.82" y="93.98"/>
-<instance part="R27" gate="G$1" x="147.32" y="99.06" rot="R90"/>
-<instance part="R28" gate="G$1" x="154.94" y="99.06" rot="R90"/>
+<instance part="R27" gate="G$1" x="152.4" y="99.06" rot="R90"/>
+<instance part="R28" gate="G$1" x="165.1" y="99.06" rot="R90"/>
 <instance part="U9" gate="G$1" x="114.3" y="99.06"/>
 <instance part="GND22" gate="1" x="111.76" y="76.2"/>
-<instance part="R29" gate="G$1" x="175.26" y="111.76"/>
+<instance part="R29" gate="G$1" x="68.58" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -6985,56 +6985,49 @@ FXMA108のバスが
 <net name="PB10" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="96.52" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<junction x="147.32" y="96.52"/>
-<label x="157.48" y="96.52" size="1.778" layer="95"/>
+<wire x1="142.24" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="96.52" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<junction x="152.4" y="96.52"/>
+<label x="175.26" y="96.52" size="1.778" layer="95"/>
 <pinref part="U9" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="PB11" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="91.44" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
-<junction x="154.94" y="91.44"/>
-<label x="157.48" y="91.44" size="1.778" layer="95"/>
+<wire x1="142.24" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="91.44" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
+<junction x="165.1" y="91.44"/>
+<label x="175.26" y="91.44" size="1.778" layer="95"/>
 <pinref part="U9" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="VCC_STSAFE" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="109.22" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="109.22" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="109.22" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
-<junction x="154.94" y="111.76"/>
-<label x="157.48" y="111.76" size="1.778" layer="95"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<label x="167.64" y="111.76" size="1.778" layer="95"/>
+<wire x1="165.1" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<junction x="165.1" y="111.76"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VCC"/>
 <wire x1="114.3" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<junction x="83.82" y="96.52"/>
 <pinref part="C47" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="93.98" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <junction x="99.06" y="96.52"/>
-<label x="66.04" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VDD" class="0">
-<segment>
+<label x="83.82" y="96.52" size="1.778" layer="95"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="187.96" y="111.76" size="1.778" layer="95"/>
+<wire x1="83.82" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<junction x="83.82" y="96.52"/>
 </segment>
 </net>
 <net name="PE15" class="0">
@@ -7042,6 +7035,13 @@ FXMA108のバスが
 <pinref part="U9" gate="G$1" pin="!RESET!"/>
 <wire x1="114.3" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <label x="101.6" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
+<label x="58.42" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
