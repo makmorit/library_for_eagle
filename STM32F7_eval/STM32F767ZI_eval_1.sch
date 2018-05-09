@@ -4858,6 +4858,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C29" library="Parts" deviceset="TPST*" device="106K016R0800_" value="10uF"/>
 <part name="C49" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF X5R"/>
 <part name="GND13" library="Supply" deviceset="0V" device=""/>
+<part name="R19" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="10"/>
 </parts>
 <sheets>
 <sheet>
@@ -6703,6 +6704,8 @@ FXMA108のバスが
 ・PC12 = SPI_MOSI </text>
 <text x="147.32" y="119.38" size="1.778" layer="91" align="top-left">1uFはVOUTピンの
 近傍に設置</text>
+<text x="88.9" y="22.86" size="1.778" layer="91" align="top-left">SPIクロック信号の
+ダンピング用抵抗</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -6725,6 +6728,7 @@ FXMA108のバスが
 <instance part="C29" gate="G$1" x="162.56" y="134.62"/>
 <instance part="C49" gate="G$1" x="91.44" y="134.62"/>
 <instance part="GND13" gate="1" x="208.28" y="43.18"/>
+<instance part="R19" gate="G$1" x="93.98" y="27.94"/>
 </instances>
 <busses>
 </busses>
@@ -6884,13 +6888,6 @@ FXMA108のバスが
 <label x="190.5" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PC10" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="B3"/>
-<wire x1="185.42" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="190.5" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="+1V8" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VCC"/>
@@ -6939,6 +6936,25 @@ FXMA108のバスが
 <pinref part="U7" gate="G$1" pin="B1"/>
 <wire x1="185.42" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="190.5" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PC10" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
+<label x="111.76" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PC10_D" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="81.28" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="B3"/>
+<wire x1="185.42" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="190.5" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
