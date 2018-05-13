@@ -3865,70 +3865,6 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 </library>
 <library name="PartsForProto">
 <packages>
-<package name="GROVE-4P-90D">
-<description>&lt;b&gt;GROVEユニバーサル4ピンコネクタ&lt;/b&gt;&lt;p&gt;
-ピンピッチ: 2mm&lt;br&gt;
-基板と平行にケーブルが挿さるタイプ</description>
-<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-5" y1="8.4" x2="-5" y2="1.6" width="0.254" layer="21"/>
-<wire x1="-5" y1="1.6" x2="-5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="5" y1="1.6" x2="5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="5" y1="1.6" x2="5" y2="8.4" width="0.254" layer="21"/>
-<wire x1="-5" y1="-1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="-5" y1="8.5" x2="5" y2="8.5" width="0.254" layer="39"/>
-<wire x1="5" y1="8.5" x2="5" y2="-1.4" width="0.254" layer="39"/>
-<wire x1="5" y1="-1.4" x2="-5" y2="-1.4" width="0.254" layer="39"/>
-<wire x1="-5" y1="-1.4" x2="-5" y2="8.5" width="0.254" layer="39"/>
-<wire x1="-5" y1="1.6" x2="5" y2="1.6" width="0.254" layer="21"/>
-<wire x1="-5" y1="8.4" x2="-2.8" y2="8.4" width="0.254" layer="21"/>
-<wire x1="-2.8" y1="8.4" x2="-2.8" y2="7.4" width="0.254" layer="21"/>
-<wire x1="-2.8" y1="7.4" x2="2.8" y2="7.4" width="0.254" layer="21"/>
-<wire x1="2.8" y1="7.4" x2="2.8" y2="8.4" width="0.254" layer="21"/>
-<wire x1="2.8" y1="8.4" x2="5" y2="8.4" width="0.254" layer="21"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="-3.175" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="3.81" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
-</package>
-<package name="GROVE-4P-0D">
-<description>&lt;b&gt;GROVEユニバーサル4ピンコネクタ&lt;/b&gt;&lt;p&gt;
-ピンピッチ: 2mm&lt;br&gt;
-基板と垂直にケーブルが挿さるタイプ</description>
-<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
-<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="-5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.8" x2="-3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.8" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.2" x2="3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.8" x2="5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.8" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="5" y1="2.2" x2="5" y2="-2.8" width="0.254" layer="39"/>
-<wire x1="-5" y1="-2.8" x2="-5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="-4.953" y1="-2.794" x2="-3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.794" x2="-3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.159" x2="-1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-4.191" x2="1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-4.191" x2="1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-2.159" x2="3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.159" x2="3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.794" x2="4.953" y2="-2.794" width="0.254" layer="39"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
-<text x="-2.54" y="2.54" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-2.54" y="-1.905" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
-</package>
 <package name="ARDUINO_COMPAT_IF">
 <description>&lt;b&gt;Arduino互換ピン レイアウトパターン&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="64.77" y1="52.07" x2="64.77" y2="49.53" width="0.127" layer="21"/>
@@ -4025,38 +3961,6 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 <text x="43.561" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">GND</text>
 <text x="46.101" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">VIN</text>
 <text x="66.421" y="52.07" size="0.889" layer="27" ratio="11" rot="R270">&gt;value</text>
-</package>
-<package name="STLINKV21_SWD_H6">
-<description>&lt;b&gt;ST-LINK V2-1用 SWDピンレイアウト&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="21.59" y2="1.27" width="0.127" layer="21"/>
-<wire x1="21.59" y1="1.27" x2="21.59" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="21.59" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0" layer="39"/>
-<wire x1="-1.27" y1="1.27" x2="21.59" y2="1.27" width="0" layer="39"/>
-<wire x1="21.59" y1="1.27" x2="21.59" y2="-1.27" width="0" layer="39"/>
-<wire x1="21.59" y1="-1.27" x2="-1.27" y2="-1.27" width="0" layer="39"/>
-<pad name="1" x="0" y="0" drill="0.889" diameter="1.651" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<text x="-3.175" y="-1.27" size="0.889" layer="27" ratio="11" rot="R90">&gt;value</text>
-<text x="-1.905" y="-1.27" size="0.889" layer="25" ratio="11" rot="R90">&gt;name</text>
-<rectangle x1="-1.27" y1="-1.27" x2="21.59" y2="1.27" layer="39"/>
-<text x="13.0175" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">SWO</text>
-<text x="10.4775" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">NRST</text>
-<text x="7.9375" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">JTMS </text>
-<text x="5.3975" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">GND</text>
-<text x="2.8575" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">JTCK </text>
-<text x="0.3175" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">AIN</text>
-<text x="20.6375" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">+5V</text>
-<text x="18.0975" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">STLK_TX</text>
-<text x="15.5575" y="1.651" size="0.7112" layer="21" ratio="11" rot="R90">STLK_RX</text>
-<pad name="7" x="15.24" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="8" x="17.78" y="0" drill="0.889" diameter="1.651" rot="R90"/>
-<pad name="9" x="20.32" y="0" drill="0.889" diameter="1.651" rot="R90"/>
 </package>
 <package name="FH12A-24S-0.5SH">
 <description>&lt;b&gt;0.5mm Pitch Connectors For FPC/FFC&lt;/b&gt;&lt;p&gt;
@@ -4357,25 +4261,72 @@ padとstopを0.8mmずつ拡張しています。</description>
 <text x="1.905" y="-1.905" size="0.6096" layer="21">RX</text>
 <text x="4.445" y="-1.905" size="0.6096" layer="21">TX</text>
 </package>
+<package name="GROVE-4P-90D">
+<description>&lt;b&gt;GROVEユニバーサル4ピンコネクタ&lt;/b&gt;&lt;p&gt;
+ピンピッチ: 2mm&lt;br&gt;
+基板と平行にケーブルが挿さるタイプ</description>
+<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-5" y1="8.4" x2="-5" y2="1.6" width="0.254" layer="21"/>
+<wire x1="-5" y1="1.6" x2="-5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="5" y1="1.6" x2="5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="5" y1="1.6" x2="5" y2="8.4" width="0.254" layer="21"/>
+<wire x1="-5" y1="-1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-5" y1="8.5" x2="5" y2="8.5" width="0.254" layer="39"/>
+<wire x1="5" y1="8.5" x2="5" y2="-1.4" width="0.254" layer="39"/>
+<wire x1="5" y1="-1.4" x2="-5" y2="-1.4" width="0.254" layer="39"/>
+<wire x1="-5" y1="-1.4" x2="-5" y2="8.5" width="0.254" layer="39"/>
+<wire x1="-5" y1="1.6" x2="5" y2="1.6" width="0.254" layer="21"/>
+<wire x1="-5" y1="8.4" x2="-2.8" y2="8.4" width="0.254" layer="21"/>
+<wire x1="-2.8" y1="8.4" x2="-2.8" y2="7.4" width="0.254" layer="21"/>
+<wire x1="-2.8" y1="7.4" x2="2.8" y2="7.4" width="0.254" layer="21"/>
+<wire x1="2.8" y1="7.4" x2="2.8" y2="8.4" width="0.254" layer="21"/>
+<wire x1="2.8" y1="8.4" x2="5" y2="8.4" width="0.254" layer="21"/>
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="-3.175" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="3.81" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="GROVE-4P-0D">
+<description>&lt;b&gt;GROVEユニバーサル4ピンコネクタ&lt;/b&gt;&lt;p&gt;
+ピンピッチ: 2mm&lt;br&gt;
+基板と垂直にケーブルが挿さるタイプ</description>
+<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
+<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-5" y1="2.2" x2="-5" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="-5" y1="-2.2" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="5" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="5" y1="-2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
+<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
+<wire x1="-5" y1="-2.2" x2="-5" y2="-2.8" width="0.254" layer="21"/>
+<wire x1="-5" y1="-2.8" x2="-3.2" y2="-2.8" width="0.254" layer="21"/>
+<wire x1="-3.2" y1="-2.8" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="-3.2" y1="-2.2" x2="3.2" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.2" y2="-2.8" width="0.254" layer="21"/>
+<wire x1="3.2" y1="-2.8" x2="5" y2="-2.8" width="0.254" layer="21"/>
+<wire x1="5" y1="-2.8" x2="5" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="39"/>
+<wire x1="5" y1="2.2" x2="5" y2="-2.8" width="0.254" layer="39"/>
+<wire x1="-5" y1="-2.8" x2="-5" y2="2.2" width="0.254" layer="39"/>
+<wire x1="-4.953" y1="-2.794" x2="-3.175" y2="-2.794" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-2.794" x2="-3.175" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-2.159" x2="-1.778" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="-4.191" width="0.254" layer="39"/>
+<wire x1="-1.778" y1="-4.191" x2="1.778" y2="-4.191" width="0.254" layer="39"/>
+<wire x1="1.778" y1="-4.191" x2="1.778" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="1.778" y1="-2.159" x2="3.175" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-2.159" x2="3.175" y2="-2.794" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-2.794" x2="4.953" y2="-2.794" width="0.254" layer="39"/>
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
+<text x="-2.54" y="2.54" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.54" y="-1.905" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
+</package>
 </packages>
 <symbols>
-<symbol name="GROVE_I2C_IF">
-<description>&lt;b&gt;Grove I2C インターフェース&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="15.24" y1="-10.16" x2="3.175" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="3.175" y1="2.54" x2="3.175" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="2.54" x2="15.24" y2="2.54" width="0.4064" layer="94"/>
-<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" length="middle" direction="pas" swaplevel="1"/>
-<pin name="GND" x="0" y="0" length="middle" direction="pas" swaplevel="1"/>
-<pin name="SCL" x="0" y="-7.62" length="middle" swaplevel="1"/>
-<pin name="SDA" x="0" y="-5.08" length="middle" swaplevel="1"/>
-<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="ARDUINO_COMPAT_IF">
 <description>&lt;B&gt;Arduino互換ピンインターフェース&lt;/B&gt;&lt;p&gt;</description>
 <wire x1="2.54" y1="-48.26" x2="35.56" y2="-48.26" width="0.254" layer="94"/>
@@ -4416,33 +4367,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pin name="AVDD" x="0" y="-40.64" length="short" direction="pas"/>
 <pin name="D14_I2C_SDA" x="0" y="-43.18" length="short" direction="pas"/>
 <pin name="D15_I2C_SCL" x="0" y="-45.72" length="short" direction="pas"/>
-</symbol>
-<symbol name="STLINKV21_SWD_IF">
-<description>&lt;b&gt;ST-LINK V2-1用 SWDインターフェース&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="17.78" y1="-22.86" x2="3.175" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.175" y1="2.54" x2="3.175" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="17.78" y1="-22.86" x2="17.78" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="2.54" x2="17.78" y2="2.54" width="0.4064" layer="94"/>
-<text x="2.54" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="JTCK" x="0" y="-2.54" length="middle" swaplevel="1"/>
-<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<pin name="AIN_1" x="0" y="0" length="middle" swaplevel="1"/>
-<pin name="NRST" x="0" y="-10.16" length="middle" swaplevel="1"/>
-<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
-<pin name="GND" x="0" y="-5.08" length="middle" direction="pas" swaplevel="1"/>
-<pin name="JTMS" x="0" y="-7.62" length="middle" swaplevel="1"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
-<pin name="SWO" x="0" y="-12.7" length="middle" swaplevel="1"/>
-<pin name="RX" x="0" y="-15.24" length="middle" swaplevel="1"/>
-<pin name="TX" x="0" y="-17.78" length="middle" swaplevel="1"/>
-<pin name="+5V" x="0" y="-20.32" length="middle" direction="pas" swaplevel="1"/>
-<wire x1="3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-17.78" x2="5.08" y2="-17.78" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-20.32" x2="5.08" y2="-20.32" width="0.6096" layer="94"/>
 </symbol>
 <symbol name="WFT0750CZ09">
 <description>&lt;b&gt;WF0750CZ09用インターフェースピン&lt;/b&gt;</description>
@@ -4516,38 +4440,25 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pin name="RX" x="0" y="-2.54" length="middle" swaplevel="1"/>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="GROVE_I2C_IF">
+<description>&lt;b&gt;Grove I2C インターフェース&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="15.24" y1="-10.16" x2="3.175" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="15.24" y2="2.54" width="0.4064" layer="94"/>
+<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" length="middle" direction="pas" swaplevel="1"/>
+<pin name="GND" x="0" y="0" length="middle" direction="pas" swaplevel="1"/>
+<pin name="SCL" x="0" y="-7.62" length="middle" swaplevel="1"/>
+<pin name="SDA" x="0" y="-5.08" length="middle" swaplevel="1"/>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="GROVE-4P-CONN-I2C" prefix="CN">
-<description>&lt;b&gt;GROVE 4ピンコネクタ（I2C）&lt;/b&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="GROVE_I2C_IF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-90D" package="GROVE-4P-90D">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0D" package="GROVE-4P-0D">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ARDUINO_COMPAT_IF" prefix="CN">
 <description>&lt;b&gt;Arduino互換ピンインターフェース&lt;/b&gt;</description>
 <gates>
@@ -4588,33 +4499,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <connect gate="G$1" pin="NC" pad="19"/>
 <connect gate="G$1" pin="NRST" pad="21"/>
 <connect gate="G$1" pin="VIN" pad="26"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="STLINKV21_SWD_IF" prefix="CN">
-<description>&lt;b&gt;ST-LINK V2-1用 SWDインターフェース&lt;/b&gt;&lt;p&gt;
-#1-#6は、NUCLEO-F767ZI付属のST-LINK V2-1上のCN6と接続&lt;br&gt;
-#7,#8は、NUCLEO-F767ZI付属のST-LINK V2-1上のCN5と接続&lt;br&gt;
-#9は、+5Vを別途供給（またはNUCLEOのJP3と接続）&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="STLINKV21_SWD_IF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="STLINKV21_SWD_H6">
-<connects>
-<connect gate="G$1" pin="+5V" pad="9"/>
-<connect gate="G$1" pin="AIN_1" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="JTCK" pad="2"/>
-<connect gate="G$1" pin="JTMS" pad="4"/>
-<connect gate="G$1" pin="NRST" pad="5"/>
-<connect gate="G$1" pin="RX" pad="7"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="TX" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4710,6 +4594,134 @@ padとstopを0.8mmずつ拡張しています。</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="GROVE-4P-CONN-I2C" prefix="CN">
+<description>&lt;b&gt;GROVE 4ピンコネクタ（I2C）&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="GROVE_I2C_IF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-90D" package="GROVE-4P-90D">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0D" package="GROVE-4P-0D">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Connectors">
+<packages>
+<package name="DF65-7P-1.7V_DEV">
+<description>&lt;b&gt;DF65 Series&lt;/b&gt;&lt;p&gt;
+1.7mm pitch, Low Profile Wire-to-Board Connectors</description>
+<text x="6" y="0.525" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-5.1" y="-1.975" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="1.3" y1="-0.6" x2="2.1" y2="1.4" layer="29"/>
+<rectangle x1="-0.4" y1="-0.6" x2="0.4" y2="1.4" layer="29"/>
+<rectangle x1="6.125" y1="-6.75" x2="6.825" y2="-4.15" layer="1"/>
+<rectangle x1="-6.825" y1="-6.75" x2="-6.125" y2="-4.15" layer="1"/>
+<rectangle x1="6.175" y1="-5.9" x2="6.775" y2="-4.2" layer="31"/>
+<rectangle x1="-2.1" y1="-0.6" x2="-1.3" y2="1.4" layer="29"/>
+<rectangle x1="-3.8" y1="-0.6" x2="-3" y2="1.4" layer="29"/>
+<rectangle x1="-5.5" y1="-0.6" x2="-4.7" y2="1.4" layer="29"/>
+<rectangle x1="3" y1="-0.6" x2="3.8" y2="1.4" layer="29"/>
+<rectangle x1="4.7" y1="-0.6" x2="5.5" y2="1.4" layer="29"/>
+<rectangle x1="-6.775" y1="-5.9" x2="-6.175" y2="-4.2" layer="31"/>
+<rectangle x1="6.025" y1="-6.85" x2="6.925" y2="-4.05" layer="29"/>
+<rectangle x1="-6.925" y1="-6.85" x2="-6.025" y2="-4.05" layer="29"/>
+<smd name="4" x="0" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.7" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-3.4" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-5.1" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.7" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="6" x="3.4" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<smd name="7" x="5.1" y="0.4" dx="0.6" dy="1.8" layer="1" stop="no" cream="no"/>
+<rectangle x1="-0.25" y1="-0.45" x2="0.25" y2="0.45" layer="31"/>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.45" y2="0.45" layer="31"/>
+<rectangle x1="-3.65" y1="-0.45" x2="-3.15" y2="0.45" layer="31"/>
+<rectangle x1="-5.35" y1="-0.45" x2="-4.85" y2="0.45" layer="31"/>
+<rectangle x1="1.45" y1="-0.45" x2="1.95" y2="0.45" layer="31"/>
+<rectangle x1="3.15" y1="-0.45" x2="3.65" y2="0.45" layer="31"/>
+<rectangle x1="4.85" y1="-0.45" x2="5.35" y2="0.45" layer="31"/>
+<wire x1="-7.3" y1="-5.75" x2="7.3" y2="-5.75" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="0.3" x2="7.15" y2="0.3" width="0.127" layer="51"/>
+<wire x1="7.3" y1="-5.75" x2="7.3" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-7.3" y1="-5.75" x2="-7.3" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-3.95" x2="-7.15" y2="0.3" width="0.127" layer="51"/>
+<wire x1="-7.3" y1="-3.95" x2="-7.15" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-3.95" x2="7.3" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-3.95" x2="7.15" y2="0.3" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STLINKV21_SWD_IF">
+<description>&lt;b&gt;ST-LINK V2-1用 SWDインターフェース&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="17.78" y1="-17.78" x2="3.175" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="17.78" y2="2.54" width="0.4064" layer="94"/>
+<text x="2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="JTCK" x="0" y="0" length="middle" swaplevel="1"/>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
+<pin name="NRST" x="0" y="-7.62" length="middle" swaplevel="1"/>
+<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
+<pin name="GND" x="0" y="-2.54" length="middle" direction="pas" swaplevel="1"/>
+<pin name="JTMS" x="0" y="-5.08" length="middle" swaplevel="1"/>
+<pin name="SWO" x="0" y="-10.16" length="middle" swaplevel="1"/>
+<pin name="RX" x="0" y="-12.7" length="middle" swaplevel="1"/>
+<pin name="TX" x="0" y="-15.24" length="middle" swaplevel="1"/>
+<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.6096" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STLINKV2_SWD_IF" prefix="CN">
+<description>&lt;b&gt;ST-LINK V2-1用 SWDインターフェース&lt;/b&gt;&lt;p&gt;
+#1-#5は、NUCLEO-F767ZI付属のST-LINK V2-1上のCN6[#2-#6]と接続&lt;br&gt;
+（CN6側の#1には接続しません）&lt;br&gt;
+#6,#7は、NUCLEO-F767ZI付属のST-LINK V2-1上のCN5[#1-#2]と接続&lt;br&gt;
++5Vは、NUCLEOのJP3[U5V]から別途供給&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="STLINKV21_SWD_IF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_" package="DF65-7P-1.7V_DEV">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="JTCK" pad="1"/>
+<connect gate="G$1" pin="JTMS" pad="3"/>
+<connect gate="G$1" pin="NRST" pad="4"/>
+<connect gate="G$1" pin="RX" pad="6"/>
+<connect gate="G$1" pin="SWO" pad="5"/>
+<connect gate="G$1" pin="TX" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4750,10 +4762,7 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="R3" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="R4" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
 <part name="FRAME2" library="Generic" deviceset="A4L-LOC" device=""/>
-<part name="CN3" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
-<part name="CN4" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
 <part name="CN5" library="PartsForProto" deviceset="ARDUINO_COMPAT_IF" device=""/>
-<part name="CN6" library="PartsForProto" deviceset="STLINKV21_SWD_IF" device=""/>
 <part name="SW1" library="Parts" deviceset="SKRPACE010" device="_" value="SKRPACE010_"/>
 <part name="C17" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="GND4" library="Supply" deviceset="0V" device=""/>
@@ -4843,7 +4852,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C45" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="C46" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
 <part name="R25" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="0"/>
-<part name="+3V4" library="Supply" deviceset="+3V3" device=""/>
 <part name="SUPPLY2" library="Supply" deviceset="+1V8" device=""/>
 <part name="FRAME5" library="Generic" deviceset="A4L-LOC" device=""/>
 <part name="C47" library="Parts" deviceset="CAP" device="_0603_DEV" value="0.1uF"/>
@@ -4859,6 +4867,9 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="C49" library="Parts" deviceset="CAP" device="_0603_DEV" value="1uF X5R"/>
 <part name="GND13" library="Supply" deviceset="0V" device=""/>
 <part name="R19" library="Parts" deviceset="RESISTOR" device="_0603_DEV" value="10"/>
+<part name="CN1" library="Connectors" deviceset="STLINKV2_SWD_IF" device="_"/>
+<part name="CN2" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
+<part name="CN3" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
 </parts>
 <sheets>
 <sheet>
@@ -5953,20 +5964,20 @@ LDOのVOUT近傍に設置</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="CN3" gate="G$1" x="40.64" y="127"/>
-<instance part="CN4" gate="G$1" x="40.64" y="86.36"/>
 <instance part="CN5" gate="G$1" x="111.76" y="124.46"/>
-<instance part="CN6" gate="G$1" x="198.12" y="91.44"/>
 <instance part="CN9" gate="G$1" x="200.66" y="129.54"/>
+<instance part="CN1" gate="G$1" x="200.66" y="88.9"/>
+<instance part="CN2" gate="G$1" x="43.18" y="127"/>
+<instance part="CN3" gate="G$1" x="43.18" y="86.36"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="0V" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="GND"/>
-<wire x1="40.64" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <label x="30.48" y="127" size="1.778" layer="95"/>
+<pinref part="CN2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="GND0"/>
@@ -5974,9 +5985,9 @@ LDOのVOUT近傍に設置</text>
 <label x="101.6" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN6" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
-<label x="187.96" y="86.36" size="1.778" layer="95"/>
+<wire x1="200.66" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<label x="190.5" y="86.36" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="GND1"/>
@@ -5994,9 +6005,9 @@ LDOのVOUT近傍に設置</text>
 <label x="190.5" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN4" gate="G$1" pin="GND"/>
-<wire x1="40.64" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="30.48" y="86.36" size="1.778" layer="95"/>
+<pinref part="CN3" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6013,9 +6024,9 @@ LDOのVOUT近傍に設置</text>
 </net>
 <net name="PB9" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="SDA"/>
-<wire x1="40.64" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
 <label x="30.48" y="121.92" size="1.778" layer="95"/>
+<pinref part="CN2" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="D14_I2C_SDA"/>
@@ -6023,16 +6034,16 @@ LDOのVOUT近傍に設置</text>
 <label x="101.6" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN4" gate="G$1" pin="SDA"/>
-<wire x1="40.64" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="30.48" y="81.28" size="1.778" layer="95"/>
+<pinref part="CN3" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="PB8" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="SCL"/>
-<wire x1="40.64" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 <label x="30.48" y="119.38" size="1.778" layer="95"/>
+<pinref part="CN2" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="D15_I2C_SCL"/>
@@ -6040,9 +6051,9 @@ LDOのVOUT近傍に設置</text>
 <label x="101.6" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN4" gate="G$1" pin="SCL"/>
-<wire x1="40.64" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="30.48" y="78.74" size="1.778" layer="95"/>
+<pinref part="CN3" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
@@ -6152,23 +6163,23 @@ LDOのVOUT近傍に設置</text>
 </net>
 <net name="TCK" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="JTCK"/>
-<wire x1="198.12" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<label x="187.96" y="88.9" size="1.778" layer="95"/>
+<wire x1="200.66" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="190.5" y="88.9" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="JTCK"/>
 </segment>
 </net>
 <net name="TMS" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="JTMS"/>
-<wire x1="198.12" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<label x="187.96" y="83.82" size="1.778" layer="95"/>
+<wire x1="200.66" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<label x="190.5" y="83.82" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="JTMS"/>
 </segment>
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="NRST"/>
-<wire x1="198.12" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="187.96" y="81.28" size="1.778" layer="95"/>
+<wire x1="200.66" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="190.5" y="81.28" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="NRST"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="NRST"/>
@@ -6178,9 +6189,9 @@ LDOのVOUT近傍に設置</text>
 </net>
 <net name="SWO" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="SWO"/>
-<wire x1="198.12" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
-<label x="187.96" y="78.74" size="1.778" layer="95"/>
+<wire x1="200.66" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="190.5" y="78.74" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="SWO"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6188,11 +6199,6 @@ LDOのVOUT近傍に設置</text>
 <pinref part="CN5" gate="G$1" pin="VIN"/>
 <wire x1="149.86" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <label x="152.4" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CN6" gate="G$1" pin="+5V"/>
-<wire x1="198.12" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="187.96" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="+5V"/>
@@ -6214,30 +6220,18 @@ LDOのVOUT近傍に設置</text>
 <label x="152.4" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="CN3" gate="G$1" pin="VCC"/>
-<wire x1="40.64" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="30.48" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CN4" gate="G$1" pin="VCC"/>
-<wire x1="40.64" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="30.48" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PD8" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="RX"/>
-<wire x1="198.12" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
-<label x="187.96" y="76.2" size="1.778" layer="95"/>
+<wire x1="200.66" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
+<label x="190.5" y="76.2" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="RX"/>
 </segment>
 </net>
 <net name="PD9" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="TX"/>
-<wire x1="198.12" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="187.96" y="73.66" size="1.778" layer="95"/>
+<wire x1="200.66" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<label x="190.5" y="73.66" size="1.778" layer="95"/>
+<pinref part="CN1" gate="G$1" pin="TX"/>
 </segment>
 </net>
 <net name="PE0" class="0">
@@ -6252,6 +6246,18 @@ LDOのVOUT近傍に設置</text>
 <pinref part="CN9" gate="G$1" pin="TX"/>
 <wire x1="200.66" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="190.5" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EXT_3V3" class="0">
+<segment>
+<pinref part="CN2" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="30.48" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN3" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="30.48" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -6721,7 +6727,6 @@ FXMA108のバスが
 <instance part="C45" gate="G$1" x="134.62" y="73.66"/>
 <instance part="C46" gate="G$1" x="208.28" y="73.66"/>
 <instance part="R25" gate="G$1" x="76.2" y="139.7"/>
-<instance part="+3V4" gate="G$1" x="71.12" y="152.4"/>
 <instance part="SUPPLY2" gate="G$1" x="134.62" y="93.98"/>
 <instance part="U5" gate="G$1" x="116.84" y="139.7"/>
 <instance part="C28" gate="G$1" x="147.32" y="134.62"/>
@@ -6733,14 +6738,6 @@ FXMA108のバスが
 <busses>
 </busses>
 <nets>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="71.12" y1="139.7" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="0V" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="GND"/>
@@ -6955,6 +6952,13 @@ FXMA108のバスが
 <pinref part="U7" gate="G$1" pin="B3"/>
 <wire x1="185.42" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <label x="190.5" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EXT_3V3" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="58.42" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
