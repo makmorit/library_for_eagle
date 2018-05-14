@@ -4870,6 +4870,9 @@ padとstopを0.8mmずつ拡張しています。</description>
 <part name="CN1" library="Connectors" deviceset="STLINKV2_SWD_IF" device="_"/>
 <part name="CN2" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
 <part name="CN3" library="PartsForProto" deviceset="GROVE-4P-CONN-I2C" device="-90D"/>
+<part name="+3V4" library="Supply" deviceset="+3V3" device=""/>
+<part name="+3V5" library="Supply" deviceset="+3V3" device=""/>
+<part name="+3V6" library="Supply" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5969,6 +5972,8 @@ LDOのVOUT近傍に設置</text>
 <instance part="CN1" gate="G$1" x="200.66" y="88.9"/>
 <instance part="CN2" gate="G$1" x="43.18" y="127"/>
 <instance part="CN3" gate="G$1" x="43.18" y="86.36"/>
+<instance part="+3V5" gate="G$1" x="38.1" y="134.62"/>
+<instance part="+3V6" gate="G$1" x="38.1" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -6020,6 +6025,18 @@ LDOのVOUT近傍に設置</text>
 <pinref part="CN5" gate="G$1" pin="IOREF"/>
 <wire x1="149.86" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <label x="152.4" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN3" gate="G$1" pin="VCC"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="43.18" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="83.82" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="G$1" pin="VCC"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="43.18" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="124.46" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB9" class="0">
@@ -6246,18 +6263,6 @@ LDOのVOUT近傍に設置</text>
 <pinref part="CN9" gate="G$1" pin="TX"/>
 <wire x1="200.66" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="190.5" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_3V3" class="0">
-<segment>
-<pinref part="CN2" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="30.48" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CN3" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="30.48" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -6734,6 +6739,7 @@ FXMA108のバスが
 <instance part="C49" gate="G$1" x="91.44" y="134.62"/>
 <instance part="GND13" gate="1" x="208.28" y="43.18"/>
 <instance part="R19" gate="G$1" x="93.98" y="27.94"/>
+<instance part="+3V4" gate="G$1" x="68.58" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -6954,11 +6960,12 @@ FXMA108のバスが
 <label x="190.5" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT_3V3" class="0">
+<net name="+3V3" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
-<label x="58.42" y="139.7" size="1.778" layer="95"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="76.2" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="139.7" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
