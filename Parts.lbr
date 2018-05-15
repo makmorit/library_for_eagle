@@ -7875,6 +7875,31 @@ Vgs - ゲート-ソース間電圧: - 4.5 V&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="MCP1525" prefix="U">
+<description>&lt;b&gt;基準電圧IC&lt;/b&gt;&lt;p&gt;
+電圧 - 出力（最小/固定）：2.5V&lt;br&gt;
+電流 - 出力：2mA&lt;br&gt;
+許容誤差：±1%&lt;br&gt;
+温度係数：50ppm/°C&lt;br&gt;
+電圧 - 入力：2.7 V～5.5 V	&lt;br&gt;
+電流 - 供給：120µA&lt;br&gt;
+動作温度：-40°C～85°C（TA）</description>
+<gates>
+<gate name="G$1" symbol="MCP1541" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T-I/TT_" package="SOT23_DEV">
+<connects>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
