@@ -228,8 +228,8 @@ Available for: LD29150DT</description>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-1.1" y="0" dx="1.6" dy="1" layer="1"/>
 <smd name="2" x="1.1" y="0" dx="1.6" dy="1" layer="1"/>
-<text x="-0.635" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.79375" y="0.79375" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-0.79375" y="-1.5875" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 </package>
@@ -3957,6 +3957,27 @@ MEMS technology</description>
 <wire x1="1.4" y1="1.7" x2="1.4" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="1.7" x2="1.4" y2="1.7" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-1.7" x2="1.4" y2="-1.7" width="0.127" layer="21"/>
+</package>
+<package name="SPW2430-SILICON-MIC_REV-B">
+<description>&lt;b&gt;SPW2430搭載モジュール&lt;/b&gt;&lt;p&gt;</description>
+<text x="3.048" y="9.906" size="1.27" layer="21" ratio="14">SPW2430</text>
+<text x="4.572" y="0.762" size="0.8128" layer="21" ratio="15" align="center">3V</text>
+<text x="7.112" y="0.762" size="0.8128" layer="21" ratio="15" align="center">GND</text>
+<text x="9.779" y="0.762" size="0.8128" layer="21" ratio="15" align="center">AC</text>
+<text x="12.319" y="0.762" size="0.8128" layer="21" ratio="15" align="center">DC</text>
+<text x="2.032" y="0.762" size="0.8128" layer="21" ratio="15" align="center">Vin</text>
+<wire x1="0" y1="0" x2="0" y2="13.208" width="0.127" layer="21"/>
+<wire x1="0" y1="13.208" x2="2.54" y2="15.748" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="15.748" x2="11.43" y2="15.748" width="0.127" layer="21"/>
+<wire x1="11.43" y1="15.748" x2="13.97" y2="13.208" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.97" y1="13.208" x2="13.97" y2="0" width="0.127" layer="21"/>
+<wire x1="13.97" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="1" x="1.905" y="2.54" drill="0.8"/>
+<pad name="2" x="4.445" y="2.54" drill="0.8"/>
+<pad name="3" x="6.985" y="2.54" drill="0.8"/>
+<pad name="4" x="9.525" y="2.54" drill="0.8"/>
+<pad name="5" x="12.065" y="2.54" drill="0.8"/>
+<pad name="6" x="6.985" y="12.7" drill="0.8"/>
 </package>
 </packages>
 <symbols>
@@ -7791,6 +7812,17 @@ S/N比：59dB&lt;br&gt;
 <connect gate="G$1" pin="GND1" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="__" package="SPW2430-SILICON-MIC_REV-B">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
