@@ -3727,7 +3727,7 @@ PW (R-PDSO-G16)&lt;br&gt;
 <description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
 <wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.2032" layer="51"/>
 <wire x1="3" y1="1.6" x2="-3" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.6" x2="-3" y2="-1.6" width="0.2032" layer="22"/>
+<wire x1="3" y1="-1.6" x2="-3" y2="-1.6" width="0.2032" layer="21"/>
 <wire x1="3" y1="-1.6" x2="3" y2="-1.1" width="0.2032" layer="51"/>
 <wire x1="3" y1="-1.1" x2="3" y2="1.1" width="0.2032" layer="51"/>
 <wire x1="3" y1="1.1" x2="3" y2="1.6" width="0.2032" layer="51"/>
