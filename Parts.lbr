@@ -7810,7 +7810,7 @@ Ifsm - 順方向サージ電流（Forward Surge Current）: 60 A &lt;br&gt;
 </deviceset>
 <deviceset name="BLM18EG" prefix="L">
 <description>&lt;b&gt;フェライトビーズ&lt;/b&gt;&lt;p&gt;
-インピーダンス: 100 Ohms&lt;br&gt;
+インピーダンス: 100 Ohms @ 100 MHz&lt;br&gt;
 最大 DC 電流: 2 A&lt;br&gt;
 最大 DC 抵抗: 45 mOhms&lt;br&gt;
 動作温度範囲: - 55 C to + 125 C &lt;br&gt;</description>
