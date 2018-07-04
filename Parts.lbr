@@ -7982,18 +7982,18 @@ Vgs - ゲート-ソース間電圧: - 4.5 V&lt;br&gt;
 </deviceset>
 <deviceset name="REF30" prefix="U">
 <description>&lt;b&gt;基準電圧IC&lt;/b&gt;&lt;p&gt;
-電圧 - 出力（最小/固定）：3V&lt;br&gt;
+電圧 - 出力（最小/固定）：4.096V&lt;br&gt;
 電流 - 出力：25mA&lt;br&gt;
 許容誤差：±0.2%&lt;br&gt;
 温度係数：75ppm/°C&lt;br&gt;
-電圧 - 入力：3.05 V～5.5 V&lt;br&gt;
+電圧 - 入力：4.146 V～5.5 V&lt;br&gt;
 電流 - 供給：50µA&lt;br&gt;
 動作温度：-40°C～125°C（TA）</description>
 <gates>
 <gate name="G$1" symbol="MCP1541" x="0" y="0"/>
 </gates>
 <devices>
-<device name="30AIDBZR_" package="SOT23_DEV">
+<device name="40AIDBZR_" package="SOT23_DEV">
 <connects>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
