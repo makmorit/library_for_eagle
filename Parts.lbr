@@ -8072,7 +8072,7 @@ Vgs - ゲート-ソース間電圧: - 4.5 V&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS27081A">
+<deviceset name="TPS27081A" prefix="U">
 <description>&lt;b&gt;ハイサイド負荷ドライバ&lt;/b&gt;&lt;p&gt;
 電圧 - 負荷：1.2 V～8 V&lt;br&gt;
 電流 - 出力（最大）：3A&lt;br&gt;
@@ -8090,6 +8090,58 @@ Rds On（標準）：32ミリオーム&lt;br&gt;
 <connect gate="G$1" pin="VIN" pad="4"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
 <connect gate="G$1" pin="VOUT1" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="APTD1608" prefix="D">
+<description>&lt;b&gt;発光ダイオード&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="LCGCK_" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LSYCK_" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="APHD1608" prefix="D">
+<description>&lt;b&gt;発光ダイオード&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="LQBC/D_" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LSURCK_" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
