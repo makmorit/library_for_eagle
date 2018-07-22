@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="3.125" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1945,14 +1945,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pad name="8" x="45.72" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
 <text x="65.405" y="52.07" size="0.889" layer="25" ratio="11" rot="R270">&gt;name</text>
 <rectangle x1="53.34" y1="40.64" x2="55.88" y2="60.96" layer="39" rot="R270"/>
-<text x="63.1825" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D0</text>
-<text x="60.6425" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D1</text>
-<text x="58.1025" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D2</text>
-<text x="55.5625" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D3</text>
-<text x="53.0225" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D4</text>
-<text x="50.4825" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D5</text>
-<text x="47.9425" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D6</text>
-<text x="45.4025" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D7</text>
 <wire x1="42.926" y1="52.07" x2="42.926" y2="49.53" width="0.127" layer="21"/>
 <wire x1="42.926" y1="49.53" x2="17.526" y2="49.53" width="0.127" layer="21"/>
 <wire x1="17.526" y1="49.53" x2="17.526" y2="52.07" width="0.127" layer="21"/>
@@ -1972,16 +1964,9 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pad name="17" x="21.336" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
 <pad name="18" x="18.796" y="50.8" drill="0.889" diameter="1.651" rot="R270"/>
 <rectangle x1="28.956" y1="38.1" x2="31.496" y2="63.5" layer="39" rot="R270"/>
-<text x="41.275" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D8</text>
-<text x="38.735" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D9</text>
-<text x="36.195" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D10</text>
-<text x="33.655" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D11</text>
-<text x="31.115" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D12</text>
-<text x="28.575" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">D13</text>
-<text x="26.035" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">GND</text>
-<text x="23.495" y="49.2125" size="0.889" layer="21" ratio="11" rot="R270">AREF</text>
-<text x="20.32" y="48.41875" size="0.8128" layer="21" ratio="11">SDA</text>
-<text x="17.78" y="48.41875" size="0.8128" layer="21" ratio="11">SCL</text>
+<text x="23.891875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">AREF</text>
+<text x="21.2725" y="49.2125" size="0.7112" layer="21" ratio="11" align="top-center">SDA</text>
+<text x="18.811875" y="49.2125" size="0.7112" layer="21" ratio="11" align="top-center">SCL</text>
 <wire x1="49.53" y1="1.27" x2="49.53" y2="3.81" width="0.127" layer="21"/>
 <wire x1="49.53" y1="3.81" x2="64.77" y2="3.81" width="0.127" layer="21"/>
 <wire x1="64.77" y1="3.81" x2="64.77" y2="1.27" width="0.127" layer="21"/>
@@ -1997,12 +1982,6 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pad name="31" x="60.96" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
 <pad name="32" x="63.5" y="2.54" drill="0.889" diameter="1.651" rot="R90"/>
 <rectangle x1="55.88" y1="-5.08" x2="58.42" y2="10.16" layer="39" rot="R90"/>
-<text x="63.8175" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A5</text>
-<text x="61.2775" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A4</text>
-<text x="58.7375" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A3</text>
-<text x="56.1975" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A2</text>
-<text x="53.6575" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A1</text>
-<text x="51.1175" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">A0</text>
 <wire x1="46.99" y1="3.81" x2="46.99" y2="1.27" width="0.127" layer="21"/>
 <wire x1="46.99" y1="1.27" x2="26.67" y2="1.27" width="0.127" layer="21"/>
 <wire x1="26.67" y1="1.27" x2="26.67" y2="3.81" width="0.127" layer="21"/>
@@ -2016,15 +1995,36 @@ padとstopを0.8mmずつ拡張しています。</description>
 <pad name="20" x="30.48" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
 <pad name="19" x="27.94" y="2.54" drill="0.889" diameter="1.651" rot="R270"/>
 <rectangle x1="35.56" y1="-7.62" x2="38.1" y2="12.7" layer="39" rot="R270"/>
-<text x="28.321" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">NC</text>
-<text x="30.861" y="4.1275" size="0.8128" layer="21" ratio="11" rot="R90">IOREF</text>
-<text x="33.401" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">RST</text>
-<text x="35.941" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">3V3</text>
-<text x="38.481" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">5V</text>
-<text x="41.021" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">GND</text>
-<text x="43.561" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">GND</text>
-<text x="46.101" y="4.1275" size="0.889" layer="21" ratio="11" rot="R90">VIN</text>
 <text x="66.421" y="52.07" size="0.889" layer="27" ratio="11" rot="R270">&gt;value</text>
+<text x="26.431875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">GND</text>
+<text x="28.971875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D13</text>
+<text x="31.511875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D12</text>
+<text x="34.051875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D11</text>
+<text x="36.591875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D10</text>
+<text x="39.131875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D9</text>
+<text x="41.671875" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D8</text>
+<text x="45.72" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D7</text>
+<text x="48.26" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D6</text>
+<text x="50.8" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D5</text>
+<text x="53.34" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D4</text>
+<text x="55.88" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D3</text>
+<text x="58.42" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D2</text>
+<text x="60.96" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D1</text>
+<text x="63.5" y="49.2125" size="0.7112" layer="21" ratio="11" rot="R180" align="bottom-center">D0</text>
+<text x="45.72" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">VIN</text>
+<text x="43.18" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">GND</text>
+<text x="40.64" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">GND</text>
+<text x="38.1" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">5V</text>
+<text x="35.56" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">3V3</text>
+<text x="33.02" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">RST</text>
+<text x="30.48" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">IOREF</text>
+<text x="27.94" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">NC</text>
+<text x="63.5" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A5</text>
+<text x="60.96" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A4</text>
+<text x="58.42" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A3</text>
+<text x="55.88" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A2</text>
+<text x="53.34" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A1</text>
+<text x="50.8" y="4.1275" size="0.7112" layer="21" ratio="11" align="bottom-center">A0</text>
 </package>
 <package name="ARDUINO_COMPAT_H6">
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
