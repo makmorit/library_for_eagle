@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8426,7 +8426,7 @@ Vos - 入力オフセット電圧: 500 uV&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="FXMA108">
+<deviceset name="FXMA108" prefix="U">
 <description>&lt;b&gt;２電源双方向レベル変換IC&lt;/b&gt;&lt;p&gt;
 電源電圧:1.65V~5.5V&lt;br&gt;
    (絶対最大定格:7.0V)</description>
