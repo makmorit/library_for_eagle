@@ -9617,6 +9617,33 @@ Pd - 電力損失: 200 mW &lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="BCW68GVL" prefix="Q">
+<description>&lt;b&gt;バイポーラトランジスタ&lt;/b&gt;&lt;p&gt;
+コレクタ - エミッタ電圧 VCEO 最大値: -45 V &lt;br&gt;
+コレクタ - ベース電圧 VCBO: -50 V  &lt;br&gt;
+エミッタ - ベース電圧 VEBO: -5 V  &lt;br&gt;
+コレクタ - エミッタ飽和電圧: - 350 mV&lt;br&gt;
+最大 DC コレクタ電流: - 800 mA &lt;br&gt;
+最低動作温度: - 55 C  &lt;br&gt;
+最高動作温度: + 150 C  &lt;br&gt;
+DC 電流ゲイン hFE 最大値: 400   &lt;br&gt;
+Pd - 電力損失: 250 mW &lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
