@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2320,8 +2320,8 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.42875" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.508125" y="-3.4925" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.42875" y="2.2225" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-1.508125" y="-3.4925" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
@@ -4871,6 +4871,23 @@ ALPS SKTADAE010</description>
 <rectangle x1="-0.5" y1="-0.1" x2="-0.4" y2="0.1" layer="51"/>
 <rectangle x1="0.4" y1="-0.1" x2="0.5" y2="0.1" layer="51"/>
 <rectangle x1="-0.685" y1="-0.61875" x2="-0.435" y2="-0.36875" layer="21"/>
+</package>
+<package name="SOD323-W">
+<description>&lt;b&gt;SOD323 &lt;/b&gt; &lt;p&gt;
+Wave soldering</description>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<smd name="C" x="-1.45" y="0" dx="1.5" dy="1.2" layer="1"/>
+<smd name="A" x="1.45" y="0" dx="1.5" dy="1.2" layer="1"/>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+<text x="-1.16125" y="1.0875" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-1.16125" y="-1.64625" size="0.7112" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.1" y1="-1.5" x2="-0.7" y2="-1.1" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -9940,6 +9957,29 @@ Ifsm - 順方向サージ電流: 1 A &lt;br&gt;
 <connect gate="G$1" pin="VIN" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
 <connect gate="G$1" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG2005" prefix="D">
+<description>&lt;b&gt;ショットキーダイオード&lt;/b&gt;&lt;p&gt;
+If - 順電流: 500 mA &lt;br&gt;
+Vrrm - 繰返し逆電圧: 20 V  &lt;br&gt;
+Vf - 順電圧: 0.39 V  &lt;br&gt;
+Ifsm - 順方向サージ電流: 10 A &lt;br&gt;
+最低動作温度: - 65 C  &lt;br&gt;
+最高動作温度: + 150 C &lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="SBD" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="AEA,115" package="SOD323-W">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
