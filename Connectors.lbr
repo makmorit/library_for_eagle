@@ -1994,7 +1994,7 @@ TE Connectivity</description>
 <devices>
 <device name="" package="BAT-HLD-012-SMT">
 <connects>
-<connect gate="G$1" pin="+" pad="+@1 +@2"/>
+<connect gate="G$1" pin="+" pad="+@1"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
