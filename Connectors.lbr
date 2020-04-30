@@ -1177,6 +1177,13 @@ CR1216/1225&lt;br&gt;
 <text x="-1.27" y="1.27" size="0.889" layer="25" ratio="11">&gt;name</text>
 <text x="-1.27" y="-1.27" size="0.889" layer="27" ratio="11" align="top-left">&gt;value</text>
 </package>
+<package name="SOLPAD_3PIN">
+<text x="-1.27" y="1.27" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="-1.27" y="-1.27" size="0.889" layer="27" ratio="11" align="top-left">&gt;value</text>
+<smd name="1" x="0" y="0" dx="1.6" dy="1.6" layer="1" cream="no"/>
+<smd name="2" x="2.54" y="0" dx="1.6" dy="1.6" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="5.08" y="0" dx="1.6" dy="1.6" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-PLUG">
@@ -1774,6 +1781,16 @@ http://akizukidenshi.com/catalog/g/gC-01604/&lt;br&gt;</description>
 </technologies>
 </device>
 <device name="" package="HEADER_3PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SOL" package="SOLPAD_3PIN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
