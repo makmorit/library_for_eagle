@@ -1815,14 +1815,12 @@ Designed for CX60-24S-UNIT (Hirose)</description>
 <text x="0" y="36.576" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-2.04" y1="-2.99" x2="-0.84" y2="-1.79" layer="94"/>
-<pin name="DP_A" x="20.32" y="15.24" length="short" rot="R180"/>
-<pin name="DN_A" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="D_P" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="D_N" x="20.32" y="17.78" length="short" rot="R180"/>
 <pin name="VBUS1_A" x="20.32" y="10.16" length="short" direction="pas" rot="R180"/>
 <pin name="RX2N" x="20.32" y="25.4" length="short" direction="pas" rot="R180"/>
 <pin name="FG_A" x="20.32" y="33.02" length="short" direction="pas" rot="R180"/>
 <pin name="FG_B" x="20.32" y="-33.02" length="short" direction="pas" rot="R180"/>
-<pin name="DN_B" x="20.32" y="-17.78" length="short" rot="R180"/>
-<pin name="DP_B" x="20.32" y="-15.24" length="short" rot="R180"/>
 <pin name="GND1_A" x="20.32" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="VBUS2_A" x="20.32" y="22.86" length="short" direction="pas" rot="R180"/>
 <pin name="GND1_B" x="20.32" y="-2.54" length="short" direction="pas" rot="R180"/>
@@ -2378,10 +2376,8 @@ TE Connectivity</description>
 <device name="" package="CX60-24S-UNIT">
 <connects>
 <connect gate="G$1" pin="CC" pad="A5"/>
-<connect gate="G$1" pin="DN_A" pad="A7"/>
-<connect gate="G$1" pin="DN_B" pad="B7"/>
-<connect gate="G$1" pin="DP_A" pad="A6"/>
-<connect gate="G$1" pin="DP_B" pad="B6"/>
+<connect gate="G$1" pin="D_N" pad="A7"/>
+<connect gate="G$1" pin="D_P" pad="A6"/>
 <connect gate="G$1" pin="FG_A" pad="AFG"/>
 <connect gate="G$1" pin="FG_B" pad="BFG"/>
 <connect gate="G$1" pin="GND1_A" pad="A1"/>
