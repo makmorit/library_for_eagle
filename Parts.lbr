@@ -8638,6 +8638,15 @@ ESR（等価直列抵抗）	70 kOhms&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="-32.768K-STD-MUA-9" package="NX3215">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ST890CDR" prefix="U">
