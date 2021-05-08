@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
@@ -67,7 +67,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
@@ -1412,6 +1412,58 @@ Designed for CX60-24S-UNIT (Hirose)</description>
 <rectangle x1="3.115" y1="-0.925" x2="4.165" y2="0.925" layer="32"/>
 <rectangle x1="3.44" y1="0.35" x2="3.84" y2="0.55" layer="51"/>
 </package>
+<package name="1072TR">
+<description>&lt;b&gt;Battery Holder&lt;/B&gt; &lt;p&gt;
+Keystone Electronics 1072TR&lt;br&gt;
+suitable for CR1225</description>
+<smd name="+" x="-7.4" y="0" dx="2" dy="1.5" layer="1"/>
+<smd name="-" x="7.4" y="0" dx="2" dy="1.5" layer="1"/>
+<hole x="0" y="4" drill="1.1"/>
+<hole x="0" y="-4" drill="0.7"/>
+<circle x="0" y="0" radius="6.6" width="0.127" layer="101"/>
+<wire x1="-4.5" y1="2.2" x2="-6.1" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-2.6" x2="-4.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2.2" x2="6.1" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="4.5" y1="2.2" x2="6.1" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="2.2" x2="4.5" y2="2.2" width="0.127" layer="21" curve="-127.893009"/>
+<wire x1="4.5" y1="-2.2" x2="-4.5" y2="-2.2" width="0.127" layer="21" curve="-127.893009"/>
+<circle x="0" y="0" radius="5.7" width="0.127" layer="101"/>
+<wire x1="-0.5" y1="0" x2="-5.9" y2="4.7" width="0.127" layer="101"/>
+<wire x1="-0.5" y1="0" x2="-4.6" y2="5.9" width="0.127" layer="101"/>
+<circle x="-0.5" y="0" radius="7.2" width="0.127" layer="101"/>
+<wire x1="-8.4" y1="1.8" x2="-7.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="1.8" x2="-4.6" y2="5.9" width="0.127" layer="21" curve="-40.783201"/>
+<wire x1="-4.6" y1="5.9" x2="-3.6" y2="4.4" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="-5.2" y2="4.1" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="2.6" x2="-5.2" y2="4.1" width="0.127" layer="21" curve="-15.696035"/>
+<wire x1="-4.5" y1="3.5" x2="-3.6" y2="4.4" width="0.127" layer="21" curve="-11.786576"/>
+<wire x1="-0.5" y1="0" x2="-5.9" y2="-4.7" width="0.127" layer="101"/>
+<wire x1="-0.5" y1="0" x2="-4.6" y2="-5.9" width="0.127" layer="101"/>
+<wire x1="-8.4" y1="-1.8" x2="-8.4" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-8.4" y1="-1.8" x2="-7.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-4.1" x2="-6.1" y2="-2.6" width="0.127" layer="21" curve="-15.169287"/>
+<wire x1="-3.6" y1="-4.4" x2="-4.5" y2="-3.5" width="0.127" layer="21" curve="-12.835609"/>
+<wire x1="-4.6" y1="-5.9" x2="-7.5" y2="-1.8" width="0.127" layer="21" curve="-40.783201"/>
+<wire x1="-3.6" y1="-4.4" x2="-4.6" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-4.1" x2="-4.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="0" x2="5.9" y2="4.7" width="0.127" layer="101"/>
+<wire x1="0.5" y1="0" x2="4.6" y2="5.9" width="0.127" layer="101"/>
+<wire x1="4.5" y1="3.5" x2="5.2" y2="4.1" width="0.127" layer="21"/>
+<wire x1="5.2" y1="4.1" x2="6.1" y2="2.6" width="0.127" layer="21" curve="-15.169287"/>
+<wire x1="3.6" y1="4.4" x2="4.5" y2="3.5" width="0.127" layer="21" curve="-12.835609"/>
+<wire x1="4.6" y1="-5.9" x2="0.5" y2="0" width="0.127" layer="101"/>
+<wire x1="5.9" y1="-4.7" x2="0.5" y2="0" width="0.127" layer="101"/>
+<wire x1="4.5" y1="-3.5" x2="3.6" y2="-4.4" width="0.127" layer="21" curve="-12.835609"/>
+<wire x1="6.1" y1="-2.6" x2="5.2" y2="-4.1" width="0.127" layer="21" curve="-15.169287"/>
+<wire x1="5.2" y1="-4.1" x2="4.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="8.2" y1="1.4" x2="8.2" y2="-1.4" width="0.127" layer="101"/>
+<wire x1="8.2" y1="-1.4" x2="4.6" y2="-5.9" width="0.127" layer="21" curve="-76.865978"/>
+<wire x1="8.2" y1="1.4" x2="4.6" y2="5.9" width="0.127" layer="21" curve="76.865978"/>
+<wire x1="3.6" y1="4.4" x2="4.6" y2="5.9" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-4.4" x2="4.6" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="8.2" y1="-1.4" x2="8.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="8.2" y1="1.4" x2="8.2" y2="1.2" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-PLUG">
@@ -2399,6 +2451,25 @@ TE Connectivity</description>
 <connect gate="G$1" pin="VBUS2_A" pad="A9"/>
 <connect gate="G$1" pin="VBUS2_B" pad="B9"/>
 <connect gate="G$1" pin="VCONN" pad="B5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1072" prefix="BAT">
+<description>&lt;b&gt;Coin Cell Battery Holder&lt;/b&gt;&lt;p&gt;
+Keystone Electronics&lt;br&gt;
+suitable for CR1225</description>
+<gates>
+<gate name="G$1" symbol="3V" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="TR" package="1072TR">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
