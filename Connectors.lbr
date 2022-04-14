@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1529,6 +1529,74 @@ suitable for CR1225</description>
 <smd name="3" x="5.08" y="0" dx="1.6" dy="1.6" layer="1" roundness="100" cream="no"/>
 <smd name="4" x="7.62" y="0" dx="1.6" dy="1.6" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="USB4105-GF-A">
+<description>&lt;b&gt;USB Type C Receptacle for USB 2.0&lt;/b&gt;&lt;p&gt;</description>
+<text x="-4.5" y="1.6" size="0.8" layer="25">&gt;NAME</text>
+<text x="0.3" y="1.6" size="0.8" layer="27">&gt;VALUE</text>
+<wire x1="-4.47" y1="-1.3" x2="-4.47" y2="-3" width="0.127" layer="21"/>
+<wire x1="4.47" y1="-1.3" x2="4.47" y2="-3" width="0.127" layer="21"/>
+<wire x1="-4.47" y1="-5.4" x2="-4.47" y2="-6.78" width="0.127" layer="21"/>
+<wire x1="-4.47" y1="-6.78" x2="4.47" y2="-6.78" width="0.127" layer="21"/>
+<wire x1="4.47" y1="-6.78" x2="4.47" y2="-5.4" width="0.127" layer="21"/>
+<wire x1="4.02" y1="-0.55" x2="4.02" y2="0.55" width="0.1" layer="46"/>
+<wire x1="4.62" y1="-0.55" x2="4.62" y2="0.55" width="0.1" layer="46"/>
+<wire x1="4.02" y1="0.55" x2="4.62" y2="0.55" width="0.1" layer="46" curve="-180"/>
+<wire x1="4.02" y1="-0.55" x2="4.62" y2="-0.55" width="0.1" layer="46" curve="180"/>
+<smd name="FG3" x="4.32" y="0" dx="1" dy="2.1" layer="1" roundness="100"/>
+<wire x1="-4.62" y1="-0.55" x2="-4.62" y2="0.55" width="0.1" layer="46"/>
+<wire x1="-4.02" y1="-0.55" x2="-4.02" y2="0.55" width="0.1" layer="46"/>
+<wire x1="-4.62" y1="0.55" x2="-4.02" y2="0.55" width="0.1" layer="46" curve="-180"/>
+<wire x1="-4.62" y1="-0.55" x2="-4.02" y2="-0.55" width="0.1" layer="46" curve="180"/>
+<smd name="FG1" x="-4.32" y="0" dx="1" dy="2.1" layer="1" roundness="100"/>
+<hole x="-2.89" y="-0.5" drill="0.6"/>
+<hole x="2.89" y="-0.5" drill="0.6"/>
+<wire x1="-4.62" y1="-4.58" x2="-4.62" y2="-3.78" width="0.1" layer="46"/>
+<wire x1="-4.02" y1="-4.58" x2="-4.02" y2="-3.78" width="0.1" layer="46"/>
+<wire x1="-4.62" y1="-3.78" x2="-4.02" y2="-3.78" width="0.1" layer="46" curve="-180"/>
+<wire x1="-4.62" y1="-4.58" x2="-4.02" y2="-4.58" width="0.1" layer="46" curve="180"/>
+<smd name="FG2" x="-4.32" y="-4.18" dx="1" dy="1.8" layer="1" roundness="100"/>
+<wire x1="4.02" y1="-4.58" x2="4.02" y2="-3.78" width="0.1" layer="46"/>
+<wire x1="4.62" y1="-4.58" x2="4.62" y2="-3.78" width="0.1" layer="46"/>
+<wire x1="4.02" y1="-3.78" x2="4.62" y2="-3.78" width="0.1" layer="46" curve="-180"/>
+<wire x1="4.02" y1="-4.58" x2="4.62" y2="-4.58" width="0.1" layer="46" curve="180"/>
+<smd name="FG4" x="4.32" y="-4.18" dx="1" dy="1.8" layer="1" roundness="100"/>
+<smd name="A1" x="-3.2" y="0.625" dx="0.6" dy="1.05" layer="1" stop="no" cream="no"/>
+<smd name="A4" x="-2.4" y="0.625" dx="0.6" dy="1.05" layer="1" stop="no" cream="no"/>
+<rectangle x1="-3.475" y1="0.125" x2="-2.925" y2="1.125" layer="31"/>
+<rectangle x1="-2.675" y1="0.125" x2="-2.125" y2="1.125" layer="31"/>
+<rectangle x1="-3.55" y1="0.05" x2="-2.85" y2="1.2" layer="29"/>
+<rectangle x1="-2.75" y1="0.05" x2="-2.05" y2="1.2" layer="29"/>
+<smd name="B4" x="2.4" y="0.625" dx="0.6" dy="1.05" layer="1" stop="no" cream="no"/>
+<smd name="B1" x="3.2" y="0.625" dx="0.6" dy="1.05" layer="1" stop="no" cream="no"/>
+<rectangle x1="2.125" y1="0.125" x2="2.675" y2="1.125" layer="31"/>
+<rectangle x1="2.925" y1="0.125" x2="3.475" y2="1.125" layer="31"/>
+<rectangle x1="2.05" y1="0.05" x2="2.75" y2="1.2" layer="29"/>
+<rectangle x1="2.85" y1="0.05" x2="3.55" y2="1.2" layer="29"/>
+<smd name="B8" x="-1.75" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="A5" x="-1.25" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="B7" x="-0.75" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="A6" x="-0.25" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="A7" x="0.25" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="B6" x="0.75" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="A8" x="1.25" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<smd name="B5" x="1.75" y="0.575" dx="0.3" dy="1.15" layer="1" stop="no" cream="no"/>
+<rectangle x1="1.625" y1="0.025" x2="1.875" y2="1.125" layer="31"/>
+<rectangle x1="1.125" y1="0.025" x2="1.375" y2="1.125" layer="31"/>
+<rectangle x1="0.625" y1="0.025" x2="0.875" y2="1.125" layer="31"/>
+<rectangle x1="0.125" y1="0.025" x2="0.375" y2="1.125" layer="31"/>
+<rectangle x1="-0.375" y1="0.025" x2="-0.125" y2="1.125" layer="31"/>
+<rectangle x1="-0.875" y1="0.025" x2="-0.625" y2="1.125" layer="31"/>
+<rectangle x1="-1.375" y1="0.025" x2="-1.125" y2="1.125" layer="31"/>
+<rectangle x1="-1.875" y1="0.025" x2="-1.625" y2="1.125" layer="31"/>
+<rectangle x1="-1.95" y1="-0.05" x2="-1.55" y2="1.2" layer="29"/>
+<rectangle x1="-1.45" y1="-0.05" x2="-1.05" y2="1.2" layer="29"/>
+<rectangle x1="-0.95" y1="-0.05" x2="-0.55" y2="1.2" layer="29"/>
+<rectangle x1="-0.45" y1="-0.05" x2="-0.05" y2="1.2" layer="29"/>
+<rectangle x1="0.05" y1="-0.05" x2="0.45" y2="1.2" layer="29"/>
+<rectangle x1="0.55" y1="-0.05" x2="0.95" y2="1.2" layer="29"/>
+<rectangle x1="1.05" y1="-0.05" x2="1.45" y2="1.2" layer="29"/>
+<rectangle x1="1.55" y1="-0.05" x2="1.95" y2="1.2" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-PLUG">
@@ -2005,6 +2073,51 @@ suitable for CR1225</description>
 <pin name="D_P2" x="20.32" y="-10.16" length="short" rot="R180"/>
 <pin name="D_N2" x="20.32" y="-12.7" length="short" rot="R180"/>
 <pin name="GND2_B" x="20.32" y="-20.32" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="USB4105-GF-A">
+<description>&lt;b&gt;USB Type-C(TM) plug interface</description>
+<wire x1="0" y1="25.4" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="3.76" y1="-0.94" x2="1.61" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="1.61" y1="-0.94" x2="0.86" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-0.44" y1="0.66" x2="0.56" y2="0.66" width="0.254" layer="94"/>
+<wire x1="-1.19" y1="-2.39" x2="0.01" y2="-2.39" width="0.254" layer="94"/>
+<wire x1="0.01" y1="-2.39" x2="0.86" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="0.56" y1="0.66" x2="1.61" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="0.86" y1="-0.94" x2="-2.84" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-2.84" y1="-0.94" x2="-2.84" y2="-1.74" width="0.254" layer="94"/>
+<wire x1="-2.84" y1="-1.74" x2="-3.04" y2="-1.74" width="0.254" layer="94"/>
+<wire x1="-3.04" y1="-1.74" x2="-3.84" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-3.84" y1="-0.94" x2="-3.04" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-3.04" y1="-1.54" x2="-3.04" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-3.04" y1="-0.14" x2="-2.84" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-2.84" y1="-0.14" x2="-2.84" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-3.44" y1="-0.94" x2="-3.44" y2="-1.14" width="0.254" layer="94"/>
+<wire x1="-3.44" y1="-1.14" x2="-3.24" y2="-1.34" width="0.254" layer="94"/>
+<wire x1="-3.24" y1="-1.34" x2="-3.24" y2="-0.54" width="0.254" layer="94"/>
+<wire x1="-3.24" y1="-0.54" x2="-3.64" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<circle x="3.76" y="-0.94" radius="0.5" width="1" layer="94"/>
+<circle x="-0.84" y="0.66" radius="0.2" width="1" layer="94"/>
+<text x="0" y="26.416" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.04" y1="-2.99" x2="-0.84" y2="-1.79" layer="94"/>
+<pin name="D_P1" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="D_N1" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="VBUS1" x="20.32" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="FG1" x="20.32" y="22.86" length="short" direction="pas" rot="R180"/>
+<pin name="FG4" x="20.32" y="-22.86" length="short" direction="pas" rot="R180"/>
+<pin name="VBUS2" x="20.32" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="FG3" x="20.32" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="SBU2" x="20.32" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="CC1" x="20.32" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="SBU1" x="20.32" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="FG2" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="GND1" x="20.32" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="CC2" x="20.32" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="D_P2" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="D_N2" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="GND2" x="20.32" y="-15.24" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2641,6 +2754,37 @@ USB 2.0&lt;br&gt;
 <connect gate="G$1" pin="VBUS1_B" pad="B4"/>
 <connect gate="G$1" pin="VBUS2_A" pad="A9"/>
 <connect gate="G$1" pin="VBUS2_B" pad="B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB4105-GF-A" prefix="CN">
+<description>&lt;b&gt;USB Type C Receptacle for USB 2.0&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB4105-GF-A" x="-10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB4105-GF-A">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D_N1" pad="A7"/>
+<connect gate="G$1" pin="D_N2" pad="B7"/>
+<connect gate="G$1" pin="D_P1" pad="A6"/>
+<connect gate="G$1" pin="D_P2" pad="B6"/>
+<connect gate="G$1" pin="FG1" pad="FG1"/>
+<connect gate="G$1" pin="FG2" pad="FG2"/>
+<connect gate="G$1" pin="FG3" pad="FG3"/>
+<connect gate="G$1" pin="FG4" pad="FG4"/>
+<connect gate="G$1" pin="GND1" pad="A1"/>
+<connect gate="G$1" pin="GND2" pad="B1"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="VBUS1" pad="A4"/>
+<connect gate="G$1" pin="VBUS2" pad="B4"/>
 </connects>
 <technologies>
 <technology name=""/>
