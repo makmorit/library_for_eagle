@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -822,8 +822,8 @@ pitch: 5.08mm(200MIL)&lt;br&gt;
 <wire x1="5.2" y1="0.75" x2="5.2" y2="-0.75" width="0.1" layer="46"/>
 <wire x1="6.2" y1="0.75" x2="6.2" y2="-0.75" width="0.1" layer="46"/>
 <wire x1="5.2" y1="-0.75" x2="6.2" y2="-0.75" width="0.1" layer="46" curve="180"/>
-<hole x="-2.25" y="0" drill="1"/>
-<hole x="2.25" y="0" drill="1"/>
+<hole x="-2.25" y="0" drill="1.1"/>
+<hole x="2.25" y="0" drill="1.1"/>
 <wire x1="-6" y1="-2.7" x2="6" y2="-2.7" width="0.127" layer="51" style="dashdot"/>
 <smd name="4" x="-3.5" y="2.6" dx="1.2" dy="2" layer="1"/>
 <smd name="3" x="-1" y="2.6" dx="1.2" dy="2" layer="1"/>
