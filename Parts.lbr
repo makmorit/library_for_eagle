@@ -7067,6 +7067,15 @@ ESR（等価直列抵抗）: 0.8オーム&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="_0402N" package="R0402N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LD29150DT*" prefix="U">
@@ -10189,6 +10198,16 @@ Ifsm - 順方向サージ電流: 1 A &lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="P302MR-G" package="SOT23">
+<connects>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PMEG2005" prefix="D">
@@ -10207,6 +10226,15 @@ Ifsm - 順方向サージ電流: 10 A &lt;br&gt;
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BELD,315" package="DFN1006D-2">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
