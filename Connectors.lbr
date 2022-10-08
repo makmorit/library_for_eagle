@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1588,6 +1588,28 @@ suitable for CR1225</description>
 <text x="-7.62" y="-1.27" size="0.889" layer="27" ratio="11" align="top-left">&gt;value</text>
 <pad name="6" x="6.35" y="0" drill="0.889" diameter="1.651" rot="R90"/>
 </package>
+<package name="BAT-HLD-003-SMT">
+<description>&lt;b&gt;Battery Holders&lt;/B&gt; &lt;p&gt;
+CR2025/2032</description>
+<smd name="-" x="0" y="0" dx="17.9" dy="17.9" layer="1" roundness="100" cream="no"/>
+<smd name="+@1" x="-12.9" y="0" dx="5.7" dy="6.1" layer="1"/>
+<smd name="+@2" x="12.9" y="0" dx="5.7" dy="6.1" layer="1"/>
+<text x="12" y="5" size="0.7" layer="25">&gt;NAME</text>
+<text x="12" y="4" size="0.7" layer="27">&gt;VALUE</text>
+<rectangle x1="-15.2" y1="-2.55" x2="-10.8" y2="2.55" layer="51"/>
+<rectangle x1="10.8" y1="-2.55" x2="15.2" y2="2.55" layer="51"/>
+<rectangle x1="-10.55" y1="-4.7" x2="-10" y2="4.7" layer="51"/>
+<rectangle x1="10" y1="-4.7" x2="10.55" y2="4.7" layer="51"/>
+<rectangle x1="-3.75" y1="9.95" x2="3.75" y2="10.45" layer="21"/>
+<wire x1="-10.45" y1="4.7" x2="-3.75" y2="10.35" width="0.2" layer="21"/>
+<wire x1="10.45" y1="4.7" x2="3.75" y2="10.35" width="0.2" layer="21"/>
+<wire x1="-5" y1="-8.5" x2="-10.45" y2="-6.5" width="0.2" layer="21" curve="-141.340192"/>
+<wire x1="-10.45" y1="-6.5" x2="-10.45" y2="-4" width="0.2" layer="21"/>
+<wire x1="10.45" y1="-6.5" x2="10.45" y2="-4" width="0.2" layer="21"/>
+<wire x1="10.45" y1="-6.5" x2="5" y2="-8.5" width="0.2" layer="21" curve="-141.340192"/>
+<wire x1="-10.45" y1="3.8" x2="-10.45" y2="4.7" width="0.2" layer="21"/>
+<wire x1="10.45" y1="3.8" x2="10.45" y2="4.7" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-PLUG">
@@ -2788,6 +2810,23 @@ USB 2.0&lt;br&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT-HLD-003-SMT" prefix="BAT">
+<description>&lt;b&gt;ボタン電池ホルダー(CR2025/2032) &lt;/B&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="3V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BAT-HLD-003-SMT">
+<connects>
+<connect gate="G$1" pin="+" pad="+@1"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
