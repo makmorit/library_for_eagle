@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5078,9 +5078,9 @@ P-channel enhancement mode Field-Effect Transistor</description>
 <wire x1="0.45" y1="0.5" x2="0.45" y2="0.27" width="0.01" layer="51"/>
 <wire x1="0.45" y1="0.27" x2="0.2" y2="0.27" width="0.01" layer="51"/>
 <wire x1="0.2" y1="0.27" x2="0.2" y2="0.5" width="0.01" layer="51"/>
-<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.01" layer="21"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.01" layer="21"/>
-<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.01" layer="21"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.01" layer="51"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.01" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.01" layer="51"/>
 <wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.01" layer="51" style="shortdash"/>
 <wire x1="-0.45" y1="0.02" x2="0.45" y2="0.02" width="0.01" layer="51"/>
 <wire x1="0.45" y1="0.02" x2="0.45" y2="-0.41" width="0.01" layer="51"/>
@@ -5089,12 +5089,9 @@ P-channel enhancement mode Field-Effect Transistor</description>
 <wire x1="-0.45" y1="-0.41" x2="-0.45" y2="0.02" width="0.01" layer="51"/>
 <rectangle x1="-0.55" y1="0.2" x2="-0.1" y2="0.8" layer="29"/>
 <rectangle x1="0.1" y1="0.2" x2="0.55" y2="0.8" layer="29"/>
-<rectangle x1="-0.5" y1="-0.46" x2="0.5" y2="0.08" layer="29"/>
-<rectangle x1="-0.2" y1="-0.8" x2="0.2" y2="-0.46" layer="29"/>
 <smd name="1" x="-0.325" y="0.5" dx="0.35" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="2" x="0.325" y="0.5" dx="0.35" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="3_" x="0" y="-0.19" dx="0.9" dy="0.44" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="0" y="-0.58" dx="0.3" dy="0.34" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0" y="-0.19" dx="0.5" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <wire x1="-0.07" y1="-0.41" x2="-0.07" y2="-0.5" width="0.01" layer="51"/>
 <wire x1="0.07" y1="-0.41" x2="0.07" y2="-0.5" width="0.01" layer="51"/>
 <rectangle x1="-0.7" y1="-0.9" x2="0.7" y2="0.9" layer="39"/>
@@ -5102,6 +5099,40 @@ P-channel enhancement mode Field-Effect Transistor</description>
 <wire x1="-0.8" y1="1.1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="0.8" y1="1.1" x2="0.8" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-1.1" x2="0.8" y2="-1.1" width="0.127" layer="21"/>
+<rectangle x1="-0.45" y1="0.3" x2="-0.2" y2="0.7" layer="31"/>
+<rectangle x1="0.2" y1="0.3" x2="0.45" y2="0.7" layer="31"/>
+<text x="1" y="1" size="0.6" layer="25">&gt;NAME</text>
+<text x="1" y="0" size="0.6" layer="27">&gt;VALUE</text>
+<polygon width="0" layer="29">
+<vertex x="-0.5" y="0.08"/>
+<vertex x="0.5" y="0.08"/>
+<vertex x="0.5" y="-0.46"/>
+<vertex x="0.2" y="-0.46"/>
+<vertex x="0.2" y="-0.8"/>
+<vertex x="-0.2" y="-0.8"/>
+<vertex x="-0.2" y="-0.46"/>
+<vertex x="-0.5" y="-0.46"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.4" y="-0.02"/>
+<vertex x="0.4" y="-0.02"/>
+<vertex x="0.4" y="-0.36"/>
+<vertex x="0.1" y="-0.36"/>
+<vertex x="0.1" y="-0.7"/>
+<vertex x="-0.1" y="-0.7"/>
+<vertex x="-0.1" y="-0.36"/>
+<vertex x="-0.4" y="-0.36"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.45" y="0.03"/>
+<vertex x="0.45" y="0.03"/>
+<vertex x="0.45" y="-0.41"/>
+<vertex x="0.15" y="-0.41"/>
+<vertex x="0.15" y="-0.75"/>
+<vertex x="-0.15" y="-0.75"/>
+<vertex x="-0.15" y="-0.41"/>
+<vertex x="-0.45" y="-0.41"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -10425,6 +10456,25 @@ Ifsm - 順方向サージ電流: 10 A &lt;br&gt;
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS84AKQB" prefix="Q">
+<description>&lt;b&gt;P-Channel MOSFET&lt;/b&gt;&lt;p&gt;
+DFN-1110D-3</description>
+<gates>
+<gate name="G$1" symbol="MOSFET-P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="Z" package="BSS84AKQB">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
