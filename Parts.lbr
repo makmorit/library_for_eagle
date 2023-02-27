@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5067,6 +5067,42 @@ Metric Code Size 1005</description>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
 <rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
+<package name="BSS84AKQB">
+<description>&lt;b&gt;MOSFET P-Channel&lt;/b&gt;&lt;p&gt;
+P-channel enhancement mode Field-Effect Transistor</description>
+<wire x1="-0.45" y1="0.5" x2="-0.2" y2="0.5" width="0.01" layer="51"/>
+<wire x1="-0.2" y1="0.5" x2="-0.2" y2="0.27" width="0.01" layer="51"/>
+<wire x1="-0.2" y1="0.27" x2="-0.45" y2="0.27" width="0.01" layer="51"/>
+<wire x1="-0.45" y1="0.27" x2="-0.45" y2="0.5" width="0.01" layer="51"/>
+<wire x1="0.2" y1="0.5" x2="0.45" y2="0.5" width="0.01" layer="51"/>
+<wire x1="0.45" y1="0.5" x2="0.45" y2="0.27" width="0.01" layer="51"/>
+<wire x1="0.45" y1="0.27" x2="0.2" y2="0.27" width="0.01" layer="51"/>
+<wire x1="0.2" y1="0.27" x2="0.2" y2="0.5" width="0.01" layer="51"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.01" layer="21"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.01" layer="21"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.01" layer="21"/>
+<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.01" layer="51" style="shortdash"/>
+<wire x1="-0.45" y1="0.02" x2="0.45" y2="0.02" width="0.01" layer="51"/>
+<wire x1="0.45" y1="0.02" x2="0.45" y2="-0.41" width="0.01" layer="51"/>
+<wire x1="0.45" y1="-0.41" x2="0.07" y2="-0.41" width="0.01" layer="51"/>
+<wire x1="-0.07" y1="-0.41" x2="-0.45" y2="-0.41" width="0.01" layer="51"/>
+<wire x1="-0.45" y1="-0.41" x2="-0.45" y2="0.02" width="0.01" layer="51"/>
+<rectangle x1="-0.55" y1="0.2" x2="-0.1" y2="0.8" layer="29"/>
+<rectangle x1="0.1" y1="0.2" x2="0.55" y2="0.8" layer="29"/>
+<rectangle x1="-0.5" y1="-0.46" x2="0.5" y2="0.08" layer="29"/>
+<rectangle x1="-0.2" y1="-0.8" x2="0.2" y2="-0.46" layer="29"/>
+<smd name="1" x="-0.325" y="0.5" dx="0.35" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.325" y="0.5" dx="0.35" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3_" x="0" y="-0.19" dx="0.9" dy="0.44" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0" y="-0.58" dx="0.3" dy="0.34" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-0.07" y1="-0.41" x2="-0.07" y2="-0.5" width="0.01" layer="51"/>
+<wire x1="0.07" y1="-0.41" x2="0.07" y2="-0.5" width="0.01" layer="51"/>
+<rectangle x1="-0.7" y1="-0.9" x2="0.7" y2="0.9" layer="39"/>
+<wire x1="-0.8" y1="1.1" x2="0.8" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.1" x2="0.8" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.1" x2="0.8" y2="-1.1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NJM2360">
@@ -6831,6 +6867,46 @@ LQFP64 pinout</description>
 <wire x1="2.54" y1="-12.7" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <pin name="VSS" x="0" y="-10.16" length="short" direction="pas"/>
 <pin name="!SS" x="33.02" y="-10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="MOSFET-P">
+<wire x1="0" y1="0" x2="-1.016" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.381" x2="-1.016" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.381" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.381" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.27" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.048" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.794" x2="0" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="1.778" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="0.762" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0" x2="1.778" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="0" x2="-0.889" y2="-0.127" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="-0.127" x2="-0.889" y2="0.127" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="0.127" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-0.635" x2="1.524" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.635" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.016" y2="-0.635" width="0.254" layer="94"/>
+<circle x="0" y="2.794" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.032" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="-3.048" radius="0.3592" width="0" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
+<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
