@@ -401,6 +401,53 @@ Multilayer Ceramic Capacitors</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ERA-2A" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip resistor&lt;/b&gt;&lt;p&gt;
+Panasonic&lt;br&gt;
+Thin Film Resistors</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PB153X" package="R0402N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0402" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip resistor&lt;/b&gt;&lt;p&gt;
+Vishay / Dale&lt;br&gt;
+Thick Film Resistors</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5K10FKEDC" package="R0402N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="51K0FKEDC" package="R0402N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="UMK105B7" prefix="C" uservalue="yes">
 <description>&lt;b&gt;MLCC&lt;/b&gt;&lt;p&gt;
 TAIYO YUDEN&lt;br&gt;
