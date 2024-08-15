@@ -420,6 +420,27 @@ Thin Film Resistors</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FCC16" prefix="F">
+<description>&lt;b&gt;Surface Mount Fuse 0603&lt;/b&gt;&lt;p&gt;
+Current Rating: 1 A&lt;br&gt;
+Voltage Rating DC: 36 VDC&lt;br&gt;
+Operating Temperature: from -55C to +125C&lt;br&gt;
+Resistance: 130 mOhms</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="102ABTP" package="FCC16">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CRCW0402" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Chip resistor&lt;/b&gt;&lt;p&gt;
 Vishay / Dale&lt;br&gt;
