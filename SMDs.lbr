@@ -510,6 +510,24 @@ Multilayer Ceramic Capacitors</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="BC817" prefix="Q">
+<description>&lt;b&gt;NPN general-purpose transistor&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-40QA" package="DFN1010D-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
