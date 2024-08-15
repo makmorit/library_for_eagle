@@ -418,6 +418,15 @@ Thin Film Resistors</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="PB512X" package="R0402N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FCC16" prefix="F">
