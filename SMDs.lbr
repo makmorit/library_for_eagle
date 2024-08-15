@@ -363,6 +363,63 @@ SOD993&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="JMK105BBJ" prefix="C" uservalue="yes">
+<description>&lt;b&gt;MLCC&lt;/b&gt;&lt;p&gt;
+TAIYO YUDEN&lt;br&gt;
+Multilayer Ceramic Capacitors</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="475MVHF" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM155" prefix="C" uservalue="yes">
+<description>&lt;b&gt;MLCC&lt;/b&gt;&lt;p&gt;
+Murata Electronics&lt;br&gt;
+Multilayer Ceramic Capacitors</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="R70J105KA12J" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UMK105B7" prefix="C" uservalue="yes">
+<description>&lt;b&gt;MLCC&lt;/b&gt;&lt;p&gt;
+TAIYO YUDEN&lt;br&gt;
+Multilayer Ceramic Capacitors</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="104KV-FR" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
