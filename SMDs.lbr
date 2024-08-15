@@ -469,6 +469,28 @@ Thick Film Resistors</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PMEG4010" prefix="D">
+<description>&lt;b&gt;Schottky Diode&lt;/b&gt;&lt;p&gt;
+If - Forward Current: 1 A&lt;br&gt;
+Vf - Forward Voltage: 435 mV&lt;br&gt;
+Vr - Reverse Voltage: 40 V&lt;br&gt;
+Ir - Reverse Current: 325 uA&lt;br&gt;
+Minimum Operating Temperature: from -55C to +150C&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="SBD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AESBYL" package="DSN1006-2">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="UMK105B7" prefix="C" uservalue="yes">
 <description>&lt;b&gt;MLCC&lt;/b&gt;&lt;p&gt;
 TAIYO YUDEN&lt;br&gt;
