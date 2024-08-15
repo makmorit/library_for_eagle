@@ -528,6 +528,29 @@ Multilayer Ceramic Capacitors</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DMP2035" prefix="Q">
+<description>&lt;b&gt; P-CHANNEL ENHANCEMENT MODE MOSFET&lt;/b&gt;&lt;p&gt;
+Vds - Drain-Source Breakdown Voltage: 20 V&lt;br&gt;
+Id - Continuous Drain Current: 6.9 A&lt;br&gt;
+Rds On - Drain-Source Resistance: 120 mOhms&lt;br&gt;
+Vgs th - Gate-Source Threshold Voltage: 1 V&lt;br&gt;
+Operating Temperature: from - 55 C to + 150 C</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="UFDF-7" package="U-DFN2020-6">
+<connects>
+<connect gate="G$1" pin="D" pad="1 2 5 6 EXP"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="4 EXP2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
